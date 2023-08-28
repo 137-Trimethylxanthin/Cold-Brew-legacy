@@ -30,7 +30,7 @@ public class DaemonLifecycle {
 
                 String pid = String.valueOf(p.pid());
                 System.out.println("DaemonLifecycle-starting: the daemon has PID: " + pid);
-                String tempFilePath = getFilePath();
+                String tempFilePath = getFilePath("cold-brew-daemon.pid");
                 try {
                     // Erstellen Sie die temporäre Datei und schreiben Sie die PID hinein
                     FileWriter writer = new FileWriter(tempFilePath);
@@ -65,7 +65,7 @@ public class DaemonLifecycle {
 
     public static void destroy() {
         System.out.println("DaemonLifecycle-destroy: Daemon destroying.");
-        String tempFilePath = getFilePath();
+        String tempFilePath = getFilePath("cold-brew-daemon.pid");
 
         File tempFile = new File(tempFilePath);
         if (tempFile.exists() && tempFile.isFile()) {
@@ -82,16 +82,14 @@ public class DaemonLifecycle {
     }
 
 
-
-
-    public static String getFilePath(){
+    public static String getFilePath(String fileName){
         String tempFilePath;
         if (System.getProperty("os.name").toLowerCase().contains("win")) {
             System.out.println("DaemonLifecycle-filepath: Windows detected.");
-            tempFilePath = System.getProperty("java.io.tmpdir") + "\\cold-brew-daemon.pid";
+            tempFilePath = System.getProperty("java.io.tmpdir") + "\\" + fileName;
         } else {
             System.out.println("DaemonLifecycle-filepath: Linux detected.");
-            tempFilePath = System.getProperty("java.io.tmpdir") + "/cold-brew-daemon.pid";
+            tempFilePath = System.getProperty("java.io.tmpdir") + "/" + fileName;
         }
 
         return tempFilePath;
@@ -99,7 +97,7 @@ public class DaemonLifecycle {
 
     private static boolean isRunning() {
         System.out.println("DaemonLifecycle: Checking if daemon is still alive.");
-        String tempFilePath = getFilePath();
+        String tempFilePath = getFilePath("cold-brew-daemon.pid");
         File tempFile = new File(tempFilePath);
         if (tempFile.exists() && tempFile.isFile()) {
             // Read the file for the pid
