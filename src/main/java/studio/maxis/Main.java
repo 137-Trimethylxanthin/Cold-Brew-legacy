@@ -1,13 +1,12 @@
 package studio.maxis;
 
 import org.apache.commons.cli.*;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
 
         Options options = new Options();
-        options.addOption("h", "help", true, "Print this help message");
+        options.addOption("h", "help",false , "Print this help message");
         options.addOption("v", "version", false, "Print version information and quit");
         options.addOption("c", "config", true, "Specify config file");
 
@@ -35,11 +34,44 @@ public class Main {
         CommandLineParser parser = new DefaultParser();
         try {
             CommandLine cmd = parser.parse(options, args);
-
+            if (cmd.hasOption("h")) {
+                String[] remainingArgs = cmd.getArgs();
+                if (remainingArgs.length > 0) {
+                    // User provided a command name with -h option
+                    String commandName = remainingArgs[0];
+                    Help.displayHelpForCommand(commandName);
+                } else {
+                    // User provided the -h option without a command name
+                    Help.generalHelp(options);
+                }
+            } else if (cmd.hasOption("v")) {
+                Help.version();
+            } else if (cmd.hasOption("d")) {
+                String[] daemonAction = cmd.getArgs();
+                if (daemonAction.length == 0) {
+                    Help.displayHelpForCommand("daemon");
+                } else if (daemonAction[0].equals("start")) {
+                    DaemonLifecycle.init();
+                } else if (daemonAction[0].equals("stop")) {
+                    DaemonLifecycle.stop();
+                } else {
+                    System.err.println("Invalid daemon action: " + daemonAction[0]);
+                    Help.displayHelpForCommand("daemon");
+                }
+            } else if (cmd.hasOption("n")) {
+                try {
+                    Controlls.sendRequest("test");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } else {
+                Help.generalHelp(options);
+            }
         } catch (ParseException e) {
             System.err.println("Error parsing command line options: " + e.getMessage());
             // Print usage or error message here
         }
-
     }
+
+
 }

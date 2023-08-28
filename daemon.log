@@ -1,0 +1,458 @@
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 129014
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 130473
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 130614
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 131089
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 132136
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 136892
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 137174
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 137399
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 137516
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 137908
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 138052
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 138320
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 138443
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 138563
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 139114
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 139342
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 139458
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 139821
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 140159
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 140312
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 140646
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 141531
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 141760
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 141926
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:34)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:556)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:145)
+	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:152)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:29)
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 142173
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 143995
+the api is not working wait 5 seconds
+the api is not working wait 5 seconds
+DaemonLogic: Daemon has exited. bey :)

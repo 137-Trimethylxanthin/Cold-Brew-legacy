@@ -1,33 +1,38 @@
 package studio.maxis;
+
+import org.apache.commons.cli.*;
+
+
 public class Help {
 
 
-    public static void me() {
-        System.out.println("Usage: java -jar coldbrew.jar [options]");
-        System.out.println("Options:");
-        System.out.println("  -h, --help <command> (for more specific help)");
-        System.out.println("  -v, --version");
-        System.out.println("  -G, --gui");
-        System.out.println("  -T, --tui");
-        System.out.println("  -s, --status");
-        System.out.println("  -d, --daemon");
+    public static void displayHelpForCommand(String commandName) {
+        if ("daemon".equals(commandName)) {
+            System.out.println("Help for daemon: Usage instructions");
+            System.out.println("java -jar coldbrew.jar daemon <action>");
+            System.out.println("Actions:");
+            System.out.println("start - Start the daemon");
+            System.out.println("stop - Stop the daemon");
+            System.out.println("restart - restart the daemon");
+            System.out.println("destroy - destroy the daemon");
 
-        System.out.println("Control options:");
-        System.out.println("  -p, --play");
-        System.out.println("  -s, --stop");
-        System.out.println("  -n, --next");
-        System.out.println("  -p, --previous");
-        System.out.println("  -t, --toggle");
-        System.out.println("  -r, --random");
-        System.out.println("  -l, --loop");
-        System.out.println("  -s, --shuffle");
-        System.out.println("  -S, --true-shuffle");
-        System.out.println("  -a, --add <path>");
-        System.out.println("  -r, --remove <filename>");
-        System.out.println("  -c, --clear");
-        System.out.println("  -l, --list");
-        System.out.println("  -i, --info (<filename>)");
-        System.out.println("  -I, --current-info");
+        } else if ("command2".equals(commandName)) {
+            System.out.println("Help for command2: Usage instructions...");
+
+        } else {
+            System.out.println("No help available for the specified command: " + commandName);
+            System.out.println("Use the -h option to display general help.");
+            System.out.println("(Or it hasent been implemented yet)");
+        }
+    }
+
+    public static void generalHelp(Options options){
+        System.out.println("General help message: Usage instructions...");
+        HelpFormatter formatter = new HelpFormatter();
+        String header = "\nColdBrew Music player :)\n\n";
+        String footer = "\nFor more information, visit https://maxis.studio";
+
+        formatter.printHelp("java -jar coldbrew.jar [options]", header, options, footer);
     }
 
     public static void version() {
