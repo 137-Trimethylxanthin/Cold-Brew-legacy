@@ -64,6 +64,19 @@ public class Main {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+            } else if (cmd.hasOption("a")) {
+                try {
+                    Controlls.sendRequest("add");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            } else if (cmd.hasOption("l")) {
+                try {
+                    Controlls.sendRequest("list");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             } else {
                 Help.generalHelp(options);
             }

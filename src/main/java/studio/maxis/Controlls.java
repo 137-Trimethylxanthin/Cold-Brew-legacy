@@ -20,13 +20,14 @@ public class Controlls {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
         String inputLine;
-        StringBuffer response = new StringBuffer();
+        StringBuilder response = new StringBuilder();
 
         while ((inputLine = in.readLine()) != null) {
-            response.append(inputLine);
+            response.append(inputLine).append("\n"); // Append newline character
         }
         in.close();
 
-        System.out.println("Response: " + response.toString());
+        System.out.print("Response: " + response); // Use System.out.print() to preserve newlines
     }
+
 }

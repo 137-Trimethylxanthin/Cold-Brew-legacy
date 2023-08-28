@@ -456,3 +456,162 @@ Current PID: 143995
 the api is not working wait 5 seconds
 the api is not working wait 5 seconds
 DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 174961
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 175661
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 177297
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 178062
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 178835
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 179622
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 180470
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 180995
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 181514
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 182494
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 184217
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 185719
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 188363
+javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1064)
+	at studio.maxis.DaemonLogic.playMusic(DaemonLogic.java:81)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:62)
+javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1064)
+	at studio.maxis.DaemonLogic.playMusic(DaemonLogic.java:81)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:62)
+javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1064)
+	at studio.maxis.DaemonLogic.playMusic(DaemonLogic.java:81)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:62)
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 188986
+javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1064)
+	at studio.maxis.DaemonLogic.playMusic(DaemonLogic.java:81)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:62)
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 195729
+DaemonLogic: playing pls dont be loud
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 197244
+DaemonLogic: playing pls dont be loud
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 198551
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing pls dont be loud
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 199869
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing pls dont be loud
+Exception in thread "main" java.lang.RuntimeException: javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:78)
+Caused by: javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1064)
+	at studio.maxis.MusicConverter.convertToPCM(MusicConverter.java:10)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:68)
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 201530
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing pls dont be loud
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 202250
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing pls dont be loud
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 203071
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing pls dont be loud
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 203837
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing pls dont be loud
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 204463
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing pls dont be loud
+DaemonLogic: Daemon has exited. bey :)
