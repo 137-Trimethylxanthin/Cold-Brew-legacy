@@ -32,7 +32,7 @@ public class Config {
         String configRenewal = appProps.getProperty("configRenewal");
 
         Boolean needNewConfig = size == 0 || Objects.equals(version, "0.1.0") || name.equals("ColdBrew") || github.equals("https://github.com/137-Trimethylxanthin/Cold-Brew") || author.equals("137-Trimethylxanthin") || configRenewal.equalsIgnoreCase("true");
-        if (size == 0){
+        if (needNewConfig){
             System.out.println("No config file found, creating one...");
 
             for (String key : defaultProps.stringPropertyNames()) {

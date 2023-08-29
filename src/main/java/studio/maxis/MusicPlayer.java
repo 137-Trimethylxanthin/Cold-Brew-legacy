@@ -1,45 +1,67 @@
 package studio.maxis;
 
-//mp3 files
-import javazoom.jl.decoder.JavaLayerException;
-import javazoom.jl.player.Player;
-
-//wav files
+//mp3 files will be to wav
 import javax.sound.sampled.*;
 
 //read files
 import java.io.*;
-import java.util.Arrays;
+import ws.schild.jave.*;
+
+
+
 
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.sax.BodyContentHandler;
-
+import ws.schild.jave.encode.*;
 
 
 public class MusicPlayer {
     public Integer volumen = 100; // #TODO: make it so it synced between the diffrent formats :)
+    static Clip wavPlayer;
 
-    public static void mp3Player(String path) {
+    private static String whereToSaveTempWavs = System.getProperty("java.io.tmpdir") + System.getProperty("file.separator") +"ColdBrew.wav";
+    private static boolean isTemp = false;
+
+    public static void otherPlayer(String path) {
+        AudioAttributes audioAttributes = new AudioAttributes();
+        audioAttributes.setCodec("pcm_s16le");  // Use codec for WAV format
+        audioAttributes.setBitRate(128000);     // Set the desired bit rate
+
+        EncodingAttributes encodingAttributes = new EncodingAttributes();
+        encodingAttributes.setAudioAttributes(audioAttributes);
+
+        File mp3File = new File(path);
+        File wavFile = new File(whereToSaveTempWavs);
+
+        Encoder encoder = new Encoder();
         try {
-            FileInputStream fileInputStream = new FileInputStream(path);
-            Player player = new Player(fileInputStream);
-            System.out.println("Playing...");
-            player.play();
-            System.out.println("Done!");
-        } catch (FileNotFoundException | JavaLayerException e) {
+            encoder.encode(new MultimediaObject(mp3File), wavFile, encodingAttributes);
+        } catch (IllegalArgumentException | EncoderException e) {
             e.printStackTrace();
         }
+        isTemp = true;
+        wavPlayer(whereToSaveTempWavs);
     }
+
 
     public static void wavPlayer(String path) {
         try {
             File file = new File(path);
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(file);
-            Clip clip = AudioSystem.getClip();
-            clip.open(audioIn);
-            clip.start();
+            wavPlayer = AudioSystem.getClip();
+            wavPlayer.open(audioIn);
+            wavPlayer.addLineListener(event -> {
+                if (event.getType() == LineEvent.Type.CLOSE) {
+                    DaemonLogic.queue.remove(0);
+                    if (isTemp){
+                        File tempFile = new File(path);
+                        tempFile.delete();
+                    }
+                }
+            });
+            wavPlayer.start();
 
 
        } catch (UnsupportedAudioFileException e) {
@@ -50,6 +72,36 @@ public class MusicPlayer {
             throw new RuntimeException(e);
         }
     }
+
+
+
+    public static void stop() {
+        if (wavPlayer != null) {
+            wavPlayer.stop();
+            wavPlayer.setFramePosition(0);
+            wavPlayer.flush();
+        }
+    }
+
+    public static void pause() {
+        if (wavPlayer != null) {
+            wavPlayer.stop();
+        }
+    }
+    public static void resume() {
+        if (wavPlayer != null) {
+            wavPlayer.start();
+        }
+    }
+
+    public static Boolean currentlyPlaying(){
+        boolean question = false;
+        if (wavPlayer != null) {
+            question = wavPlayer.isActive();
+        }
+        return question;
+    }
+
 
     public static MusicFile getMusicDetails(String path){
         MusicFile musicFile = new MusicFile();

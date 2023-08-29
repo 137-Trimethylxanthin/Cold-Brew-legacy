@@ -18,6 +18,8 @@ dependencies {
     implementation 'commons-io:commons-io:2.7'
     implementation 'org.apache.tika:tika-core:2.9.0'
     implementation 'org.apache.tika:tika-parsers-standard-package:2.9.0'
+    implementation 'ws.schild:jave-core:3.3.1'
+    implementation 'ws.schild:jave-all-deps:3.3.1'
 }
 
 test {

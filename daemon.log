@@ -1701,3 +1701,2849 @@ DaemonLogic: sleeping for 1 second
 DaemonLogic: sleeping for 1 second
 DaemonLogic: sleeping for 1 second
 DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 96059
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/internet/Säkkijärven Polkka.wav
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+bits: 16
+encoding: PCM_SIGNED
+xmpDM:audioSampleType: 16Int
+Content-Type: audio/vnd.wave
+samplerate: 48000.0
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: wav
+Sample Rate: 48000
+Name: null
+FileName: Säkkijärven Polkka.wav
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: null sec
+File Path: /home/maxi/Music/internet/Säkkijärven Polkka.wav
+Bitrate: 16
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/internet/dude looks like a lady eurobeat remix.wav
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+bits: 24
+encoding: PCM_SIGNED
+Content-Type: audio/vnd.wave
+samplerate: 48000.0
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: wav
+Sample Rate: 48000
+Name: null
+FileName: dude looks like a lady eurobeat remix.wav
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: null sec
+File Path: /home/maxi/Music/internet/dude looks like a lady eurobeat remix.wav
+Bitrate: 24
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/BUG.mp3
+xmpDM:genre: 
+xmpDM:album: BUG
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+X2Convert.com, Best converter for all file type: Audio, Video...協䕓 ᤀ ！曾爀攀㨀愀挀 瘀㄀⸀㄀䌀佔C 琀捯̀持灨0䡃偁 ᔀ 档ば   洂ó   吀䕐1 
+ 楗汬匠整獴湯䅔䉌 Ѐ 䈀䝕  
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: bug
+xmpDM:duration: 159.30242919921875
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: BUG
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: bug
+FileName: BUG.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 159.30242919921875 sec
+File Path: /home/maxi/Music/BUG.mp3
+Bitrate: null
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/astronaut in the forest.mp3
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:duration: 332.66400146484375
+Content-Type: audio/mpeg
+samplerate: 48000
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: mp3
+Sample Rate: 48000
+Name: null
+FileName: astronaut in the forest.mp3
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: 332.66400146484375 sec
+File Path: /home/maxi/Music/astronaut in the forest.mp3
+Bitrate: null
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing null
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing null
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing bug
+Playing...
+Done!
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 104985
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/astronaut in the forest.mp3
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:duration: 332.66400146484375
+Content-Type: audio/mpeg
+samplerate: 48000
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: mp3
+Sample Rate: 48000
+Name: null
+FileName: astronaut in the forest.mp3
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: 332.66400146484375 sec
+File Path: /home/maxi/Music/astronaut in the forest.mp3
+Bitrate: null
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/BUG.mp3
+xmpDM:genre: 
+xmpDM:album: BUG
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+X2Convert.com, Best converter for all file type: Audio, Video...協䕓 ᤀ ！曾爀攀㨀愀挀 瘀㄀⸀㄀䌀佔C 琀捯̀持灨0䡃偁 ᔀ 档ば   洂ó   吀䕐1 
+ 楗汬匠整獴湯䅔䉌 Ѐ 䈀䝕  
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: bug
+xmpDM:duration: 159.30242919921875
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: BUG
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: bug
+FileName: BUG.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 159.30242919921875 sec
+File Path: /home/maxi/Music/BUG.mp3
+Bitrate: null
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/float_play_will_stetson.mp3
+DaemonLogic: sleeping for 1 second
+xmpDM:genre: 
+xmpDM:album: 
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+fre:ac - free audio converter <https://www.freac.org/>
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: float play
+xmpDM:duration: 243.5032958984375
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: 
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: float play
+FileName: float_play_will_stetson.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 243.5032958984375 sec
+File Path: /home/maxi/Music/float_play_will_stetson.mp3
+Bitrate: null
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/internet/[WAV] Eurobeat Remix Fantastic Dreamer.wav
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+bits: 16
+encoding: PCM_SIGNED
+xmpDM:audioSampleType: 16Int
+Content-Type: audio/vnd.wave
+samplerate: 44100.0
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: wav
+Sample Rate: 44100
+Name: null
+FileName: [WAV] Eurobeat Remix Fantastic Dreamer.wav
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: null sec
+File Path: /home/maxi/Music/internet/[WAV] Eurobeat Remix Fantastic Dreamer.wav
+Bitrate: 16
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/internet/Crossing Field Eurobeat Remix.wav
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+bits: 16
+encoding: PCM_SIGNED
+xmpDM:audioSampleType: 16Int
+Content-Type: audio/vnd.wave
+samplerate: 48000.0
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: wav
+Sample Rate: 48000
+Name: null
+FileName: Crossing Field Eurobeat Remix.wav
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: null sec
+File Path: /home/maxi/Music/internet/Crossing Field Eurobeat Remix.wav
+Bitrate: 16
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing null
+Playing...
+Done!
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+java.lang.NullPointerException: Cannot invoke "javazoom.jl.player.AudioDevice.getPosition()" because "dev" is null
+	at javazoom.jl.player.advanced.AdvancedPlayer.createEvent(AdvancedPlayer.java:215)
+	at javazoom.jl.player.advanced.AdvancedPlayer.createEvent(AdvancedPlayer.java:207)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:87)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:72)
+	at studio.maxis.MusicPlayer.resume(MusicPlayer.java:89)
+	at studio.maxis.DaemonLogic$playHandler.handle(DaemonLogic.java:89)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:868)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:835)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:567)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:533)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 109750
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/internet/Bury the Light Eurobeat Remix.wav
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+DaemonLogic: sleeping for 1 second
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+bits: 24
+encoding: PCM_SIGNED
+Content-Type: audio/vnd.wave
+samplerate: 48000.0
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: wav
+Sample Rate: 48000
+Name: null
+FileName: Bury the Light Eurobeat Remix.wav
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: null sec
+File Path: /home/maxi/Music/internet/Bury the Light Eurobeat Remix.wav
+Bitrate: 24
+--------
+DaemonLogic: playing null
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/internet/Crossing Field Eurobeat Remix.wav
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+bits: 16
+encoding: PCM_SIGNED
+xmpDM:audioSampleType: 16Int
+Content-Type: audio/vnd.wave
+samplerate: 48000.0
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: wav
+Sample Rate: 48000
+Name: null
+FileName: Crossing Field Eurobeat Remix.wav
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: null sec
+File Path: /home/maxi/Music/internet/Crossing Field Eurobeat Remix.wav
+Bitrate: 16
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing null
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/overdose_english_cover_will_stetson_-6017774371368691831.mp3
+xmpDM:genre: 
+xmpDM:album: 
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+X2Convert.com, Best converter for all file type: Audio, Video...協䕓 ᤀ ！曾爀攀㨀愀挀 瘀㄀⸀㄀䌀佔C 琀捯̀持灨0䡃偁 ᔀ 档ば   §   吀䕐1 
+ 楗汬匠整獴湯         
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: overdose
+xmpDM:duration: 192.50729370117188
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: 
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: overdose
+FileName: overdose_english_cover_will_stetson_-6017774371368691831.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 192.50729370117188 sec
+File Path: /home/maxi/Music/overdose_english_cover_will_stetson_-6017774371368691831.mp3
+Bitrate: null
+--------
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing overdose
+Playing...
+Extracted path: /home/maxi/Music/float_play_will_stetson.mp3
+xmpDM:genre: 
+xmpDM:album: 
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+fre:ac - free audio converter <https://www.freac.org/>
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: float play
+xmpDM:duration: 243.5032958984375
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: 
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: float play
+FileName: float_play_will_stetson.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 243.5032958984375 sec
+File Path: /home/maxi/Music/float_play_will_stetson.mp3
+Bitrate: null
+--------
+Done!
+DaemonLogic: sleeping for 1 second
+DaemonLogic: playing float play
+Playing...
+Done!
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+java.lang.NullPointerException: Cannot invoke "javazoom.jl.player.AudioDevice.getPosition()" because "dev" is null
+	at javazoom.jl.player.advanced.AdvancedPlayer.createEvent(AdvancedPlayer.java:215)
+	at javazoom.jl.player.advanced.AdvancedPlayer.createEvent(AdvancedPlayer.java:207)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:87)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:72)
+	at studio.maxis.MusicPlayer.resume(MusicPlayer.java:89)
+	at studio.maxis.DaemonLogic$playHandler.handle(DaemonLogic.java:89)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:868)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:835)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:567)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:533)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+java.lang.NullPointerException: Cannot invoke "javazoom.jl.player.AudioDevice.getPosition()" because "dev" is null
+	at javazoom.jl.player.advanced.AdvancedPlayer.createEvent(AdvancedPlayer.java:215)
+	at javazoom.jl.player.advanced.AdvancedPlayer.createEvent(AdvancedPlayer.java:207)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:87)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:72)
+	at studio.maxis.MusicPlayer.resume(MusicPlayer.java:89)
+	at studio.maxis.DaemonLogic$playHandler.handle(DaemonLogic.java:89)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:868)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:835)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:567)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:533)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 114630
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/float_play_will_stetson.mp3
+DaemonLogic: sleeping for 1 second
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:genre: 
+xmpDM:album: 
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+fre:ac - free audio converter <https://www.freac.org/>
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: float play
+xmpDM:duration: 243.5032958984375
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: 
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: float play
+FileName: float_play_will_stetson.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 243.5032958984375 sec
+File Path: /home/maxi/Music/float_play_will_stetson.mp3
+Bitrate: null
+--------
+DaemonLogic: playing float play
+Playing...
+Done!
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+java.io.IOException: Stream closed
+	at java.base/java.io.PushbackInputStream.ensureOpen(PushbackInputStream.java:82)
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:177)
+	at javazoom.jl.decoder.Bitstream.readBytes(Bitstream.java:639)
+	at javazoom.jl.decoder.Bitstream.syncHeader(Bitstream.java:428)
+	at javazoom.jl.decoder.Header.read_header(Header.java:122)
+	at javazoom.jl.decoder.Bitstream.nextFrame(Bitstream.java:328)
+	at javazoom.jl.decoder.Bitstream.readNextFrame(Bitstream.java:315)
+	at javazoom.jl.decoder.Bitstream.readFrame(Bitstream.java:269)
+	at javazoom.jl.player.advanced.AdvancedPlayer.skipFrame(AdvancedPlayer.java:182)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:198)
+	at studio.maxis.MusicPlayer.resume(MusicPlayer.java:89)
+	at studio.maxis.DaemonLogic$playHandler.handle(DaemonLogic.java:89)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:868)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:835)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:567)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:533)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+java.io.IOException: Stream closed
+	at java.base/java.io.PushbackInputStream.ensureOpen(PushbackInputStream.java:82)
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:177)
+	at javazoom.jl.decoder.Bitstream.readBytes(Bitstream.java:639)
+	at javazoom.jl.decoder.Bitstream.syncHeader(Bitstream.java:428)
+	at javazoom.jl.decoder.Header.read_header(Header.java:122)
+	at javazoom.jl.decoder.Bitstream.nextFrame(Bitstream.java:328)
+	at javazoom.jl.decoder.Bitstream.readNextFrame(Bitstream.java:315)
+	at javazoom.jl.decoder.Bitstream.readFrame(Bitstream.java:269)
+	at javazoom.jl.player.advanced.AdvancedPlayer.skipFrame(AdvancedPlayer.java:182)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:198)
+	at studio.maxis.MusicPlayer.resume(MusicPlayer.java:89)
+	at studio.maxis.DaemonLogic$playHandler.handle(DaemonLogic.java:89)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:868)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:835)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:567)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:533)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 115619
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/float_play_will_stetson.mp3
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+DaemonLogic: sleeping for 1 second
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:genre: 
+xmpDM:album: 
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+fre:ac - free audio converter <https://www.freac.org/>
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: float play
+xmpDM:duration: 243.5032958984375
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: 
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: float play
+FileName: float_play_will_stetson.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 243.5032958984375 sec
+File Path: /home/maxi/Music/float_play_will_stetson.mp3
+Bitrate: null
+--------
+DaemonLogic: playing float play
+Playing...
+Done!
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+java.io.IOException: Stream closed
+	at java.base/java.io.PushbackInputStream.ensureOpen(PushbackInputStream.java:82)
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:177)
+	at javazoom.jl.decodertream.syncHeader(Bitstream.java:428)
+                                	at javazoom.jl.player.advanced.AdvancedPlayer.skipFram.Bitstream.readBytes(Bitstream.java:639)
+	at javazoom.jl.decoder.Bitse(AdvancedPlayer.java:182)
+	at javazoom.jl.player.advanced.AdvancedPlayer.play(AdvancedPlayer.java:                               	at javazoom.jl.decoder.Header.read_header(Header.java:122)
+                                                                                                                                    	at javazoom.jl.decoder.Bitstream.nextFrame(Bitstream.java:328)
+                                                                                                                                    	at javazoom.jl.decoder.Bitstream.readNextFrame(Bitstream.java:315)
+                                                                                                                                    	at javazoom.jl.decoder.Bitstream.readFrame(Bitstream.java:269)
+                                                                                                                              198)
+	at studio.maxis.MusicPlayer.resume(MusicPlayer.java:89)
+	at studio.maxis.DaemonLogic$playHandler.handle(DaemonLogic.java:89)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:868)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:835)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:567)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:533)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 117162
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/float_play_will_stetson.mp3
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:genre: 
+xmpDM:album: 
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+fre:ac - free audio converter <https://www.freac.org/>
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: float play
+xmpDM:duration: 243.5032958984375
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: 
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: float play
+FileName: float_play_will_stetson.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 243.5032958984375 sec
+File Path: /home/maxi/Music/float_play_will_stetson.mp3
+Bitrate: null
+--------
+DaemonLogic: playing float play
+Playing...
+Done!
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+java.lang.NullPointerException: Cannot invoke "javazoom.jl.player.AudioDevice.getPosition()" because "dev" is null
+	at javazoom.jl.player.advanced.AdvancedPlayer.createEvent(AdvancedPlayer.java:215)
+	at javazoom.jl.player.advanced.AdvancedPlayer.createEvent(AdvancedPlayer.java:207)
+	at javazoom.jl.player.advanced.AdvancedPlayer.stop(AdvancedPlayer.java:239)
+	at studio.maxis.MusicPlayer.pause(MusicPlayer.java:99)
+	at studio.maxis.DaemonLogic$pauseHandler.handle(DaemonLogic.java:109)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:868)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:835)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:567)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:533)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 118292
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/float_play_will_stetson.mp3
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:genre: 
+xmpDM:album: 
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+fre:ac - free audio converter <https://www.freac.org/>
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: float play
+xmpDM:duration: 243.5032958984375
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: 
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: float play
+FileName: float_play_will_stetson.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 243.5032958984375 sec
+File Path: /home/maxi/Music/float_play_will_stetson.mp3
+Bitrate: null
+--------
+DaemonLogic: playing float play
+Playing...
+Done!
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Playing... again
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 119573
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/float_play_will_stetson.mp3
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+DaemonLogic: sleeping for 1 second
+xmpDM:genre: 
+xmpDM:album: 
+xmpDM:releaseDate: 
+xmpDM:artist: Will Stetson
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: Will Stetson
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:logComment: XXX - 
+fre:ac - free audio converter <https://www.freac.org/>
+xmpDM:audioSampleRate: 44100
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: float play
+xmpDM:duration: 243.5032958984375
+Content-Type: audio/mpeg
+samplerate: 44100
+--------
+Album: 
+Release Year: 
+Artist: Will Stetson
+Track Number: null
+Filetype: mp3
+Sample Rate: 44100
+Name: float play
+FileName: float_play_will_stetson.mp3
+Bpm: null
+Genre: 
+Size: 490578059264b
+Composer: null
+Duration: 243.5032958984375 sec
+File Path: /home/maxi/Music/float_play_will_stetson.mp3
+Bitrate: null
+--------
+DaemonLogic: playing float play
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:75)
+Caused by: java.lang.RuntimeException: javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at studio.maxis.MusicPlayer.wavPlayer(MusicPlayer.java:77)
+	at studio.maxis.DaemonLogic.main(DaemonLogic.java:64)
+Caused by: javax.sound.sampled.UnsupportedAudioFileException: File of unsupported format
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1064)
+	at studio.maxis.MusicPlayer.wavPlayer(MusicPlayer.java:69)
+	... 1 more
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 138768
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/Powerful Wind, Slicked-back Hair (English Cover)「強風オールバック」【Will Stetson.mp3
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+DaemonLogic: sleeping for 1 second
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:duration: 136.51199340820312
+Content-Type: audio/mpeg
+samplerate: 48000
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: mp3
+Sample Rate: 48000
+Name: null
+FileName: Powerful Wind, Slicked-back Hair (English Cover)「強風オールバック」【Will Stetson.mp3
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: 136.51199340820312 sec
+File Path: /home/maxi/Music/Powerful Wind, Slicked-back Hair (English Cover)「強風オールバック」【Will Stetson.mp3
+Bitrate: null
+--------
+DaemonLogic: playing null
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 140800
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/Powerful Wind, Slicked-back Hair (English Cover)「強風オールバック」【Will Stetson.mp3
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:audioSampleRate: 48000
+channels: 2
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+xmpDM:audioCompressor: MP3
+xmpDM:audioChannelType: Stereo
+version: MPEG 3 Layer III Version 1
+xmpDM:duration: 136.51199340820312
+Content-Type: audio/mpeg
+samplerate: 48000
+--------
+Album: null
+Release Year: null
+Artist: null
+Track Number: null
+Filetype: mp3
+Sample Rate: 48000
+Name: null
+FileName: Powerful Wind, Slicked-back Hair (English Cover)「強風オールバック」【Will Stetson.mp3
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: 136.51199340820312 sec
+File Path: /home/maxi/Music/Powerful Wind, Slicked-back Hair (English Cover)「強風オールバック」【Will Stetson.mp3
+Bitrate: null
+--------
+DaemonLogic: playing null
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 144256
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+Extracted path: /home/maxi/Music/soulseek/A-Wall Loverboy (Lyric Video).flac
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+DaemonLogic: sleeping for 1 second
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+xmpDM:audioSampleRate: 192000
+xmp:CreatorTool: Lavf58.29.100
+X-TIKA:Parsed-By: org.apache.tika.parser.DefaultParser
+dc:title: Loverboy (Lyric Video)
+xmpDM:artist: A-Wall
+vendor: Lavf58.29.100
+X-TIKA:Parsed-By-Full-Set: org.apache.tika.parser.DefaultParser
+dc:creator: A-Wall
+xmpDM:audioCompressor: FLAC
+xmpDM:audioChannelType: Stereo
+Content-Type: audio/x-flac
+--------
+Album: null
+Release Year: null
+Artist: A-Wall
+Track Number: null
+Filetype: flac
+Sample Rate: 192000
+Name: Loverboy (Lyric Video)
+FileName: A-Wall Loverboy (Lyric Video).flac
+Bpm: null
+Genre: null
+Size: 490578059264b
+Composer: null
+Duration: null sec
+File Path: /home/maxi/Music/soulseek/A-Wall Loverboy (Lyric Video).flac
+Bitrate: null
+--------
+DaemonLogic: playing Loverboy (Lyric Video)
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second
+DaemonLogic: sleeping for 1 second

@@ -17,14 +17,14 @@ import com.sun.net.httpserver.HttpExchange;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 
 
 public class DaemonLogic {
 
     static List<MusicFile> queue = new ArrayList<>();
 
-    private static boolean myTest = false;
+
+    private static boolean isPaused = false;
     public static void main(String[] args) {
         System.out.println("----------------------------------------");
         System.out.println("DaemonLogic: Daemon has awakend.");
@@ -38,10 +38,15 @@ public class DaemonLogic {
 
         try {
             HttpServer server = HttpServer.create(new InetSocketAddress(6969), 0);
-            server.createContext("/test", new testHandler());
             server.createContext("/stop", new stopHandler());
             server.createContext("/add", new addHandler());
             server.createContext("/list", new listHandler());
+            server.createContext("/play", new playHandler());
+            server.createContext("/pause", new pauseHandler());
+            server.createContext("/next", new nextHandler());
+            server.createContext("/previous", new previousHandler());
+            server.createContext("/stopSong", new stopSongHandler());
+
 
             server.start();
         } catch (IOException e) {
@@ -52,15 +57,16 @@ public class DaemonLogic {
 
         while (true){
             try {
-                if (!queue.isEmpty()) {
+                if (!queue.isEmpty() && !isPaused && !MusicPlayer.currentlyPlaying()){
                     MusicFile item = queue.get(0);
                     System.out.println("DaemonLogic: playing " + item.Name);
-                    if (item.Filetype.equalsIgnoreCase("mp3")){
-                        MusicPlayer.mp3Player(item.Path);
-                    } else {
+                    if (item.Filetype.equalsIgnoreCase("wav")){
                         MusicPlayer.wavPlayer(item.Path);
+                    } else {
+                        MusicPlayer.otherPlayer(item.Path);
+
                     }
-                    queue.remove(0);
+
                 }
                 System.out.println("DaemonLogic: sleeping for 1 second");
                 Thread.sleep(1000);
@@ -75,15 +81,85 @@ public class DaemonLogic {
 
 
 
-    static class testHandler implements HttpHandler {
+    static class playHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
-            String response = "This is the response "+ myTest;
-            if (myTest) {
-                myTest = false;
-            } else {
-                myTest = true;
+            String response;
+            try {
+                if (isPaused){
+                    MusicPlayer.resume();
+                    response = "resume success";
+                    isPaused = false;
+                } else {
+                    response = "already playing";
+                }
+            }catch (Exception e){
+                e.printStackTrace();
+                response = "error resume";
             }
+            sendResponse(exchange, response);
+        }
+    }
+
+    static class pauseHandler implements HttpHandler {
+        @Override
+        public void handle(HttpExchange exchange) throws IOException {
+            String response;
+            try {
+                if (!isPaused){
+                    MusicPlayer.pause();
+                    response = "pause success";
+                    isPaused = true;
+                } else {
+                    response = "already paused";
+                }
+            }catch (Exception e){
+                e.printStackTrace();
+                response = "error pause";
+            }
+            sendResponse(exchange, response);
+        }
+    }
+    static class stopSongHandler implements HttpHandler {
+        @Override
+        public void handle(HttpExchange exchange) throws IOException {
+            String response;
+            try {
+                MusicPlayer.stop();
+                response = "STOP success";
+                isPaused = true;
+            } catch (Exception e) {
+                e.printStackTrace();
+                response = "error";
+            }
+            sendResponse(exchange, response);
+        }
+    }
+
+    static class nextHandler implements HttpHandler {
+        @Override
+        public void handle(HttpExchange exchange) throws IOException {
+            String response;
+            try {
+                MusicPlayer.stop();
+                if (queue.size() > 0){
+                    queue.remove(0);
+                }
+                response = "next success";
+                isPaused = false;
+            } catch (Exception e) {
+                e.printStackTrace();
+                response = "error";
+            }
+            sendResponse(exchange, response);
+        }
+    }
+
+    static class previousHandler implements HttpHandler {
+        @Override
+        public void handle(HttpExchange exchange) throws IOException {
+            String response;
+            response = "previous not implemented yet";
             sendResponse(exchange, response);
         }
     }

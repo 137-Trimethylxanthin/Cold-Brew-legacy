@@ -16,12 +16,13 @@ public class Main {
         options.addOption("d", "daemon", false, "Run as daemon");
 
         options.addOption("p", "play", false, "Play the music");
+        options.addOption("Pa", "pause", false, "Pause the music");
         options.addOption("s", "stop", false, "Stop the music");
         options.addOption("n", "next", false, "Play the next track");
-        options.addOption("p", "previous", false, "Play the previous track");
+        options.addOption("P", "previous", false, "Play the previous track");
         options.addOption("t", "toggle", false, "Toggle play/pause");
-        options.addOption("r", "random", false, "Enable random playback");
-        options.addOption("l", "loop", false, "Enable loop mode");
+        options.addOption("R", "random", false, "Enable random playback");
+        options.addOption("L", "loop", false, "Enable loop mode");
         options.addOption("s", "shuffle", false, "Enable shuffle mode");
         options.addOption("S", "true-shuffle", false, "Enable true shuffle mode");
         options.addOption("a", "add", true, "Add a track from the specified path");
@@ -64,48 +65,44 @@ public class Main {
                     Help.displayHelpForCommand("daemon");
                 }
             } else if (cmd.hasOption("n")) {
-                try {
-                    Controlls.sendGetRequest("test");
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                Controlls.sendGetRequest("next");
+
             } else if (cmd.hasOption("a")) {
                 String path = cmd.getOptionValue("a");
                 System.out.println(path);
                 String data = "path="+path;
-                try {
-                    Controlls.sendPostRequest("add", data);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                Controlls.sendPostRequest("add", data);
 
             } else if (cmd.hasOption("l")) {
-                try {
-                    Controlls.sendGetRequest("list");
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            } else if (cmd.hasOption("r")) {
+                Controlls.sendGetRequest("list");
+
+            } else if (cmd.hasOption("r")) { //not implemented TODO
                 String path = cmd.getOptionValue("r");
                 System.out.println(path);
-                try {
-                    MusicPlayer.getMusicDetails(path);
-                } catch (Exception e){
-                    e.printStackTrace();
-                }
+
+                MusicPlayer.otherPlayer(path);
+
 
             } else if (cmd.hasOption("C")) {
-                try {
-                    Config.loadConf();
-                }catch (Exception e){
-                    e.printStackTrace();
-                }
+                Config.loadConf();
+
+            } else if (cmd.hasOption("p")) {
+                Controlls.sendGetRequest("play");
+
+            } else if (cmd.hasOption("Pa")) {
+                Controlls.sendGetRequest("pause");
+            } else if (cmd.hasOption("s")) {
+                Controlls.sendGetRequest("stopSong");
+            } else if (cmd.hasOption("P")) {
+                Controlls.sendGetRequest("previous");
             } else {
                 Help.generalHelp(options);
             }
         } catch (ParseException e) {
             System.err.println("Error parsing command line options: " + e.getMessage());
             // Print usage or error message here
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 

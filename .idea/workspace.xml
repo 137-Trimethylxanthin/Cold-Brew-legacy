@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="Now can play mp3 and wav.&#10;&#10;&#10;added TODO">
-      <change afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/default.properties" afterDir="false" />
+    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="addad Config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daemon.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,7 @@
       <updated>1693216460165</updated>
       <workItem from="1693216461162" duration="10410000" />
       <workItem from="1693226922090" duration="31093000" />
-      <workItem from="1693294820811" duration="16495000" />
+      <workItem from="1693294820811" duration="28326000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -168,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693305323151</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="addad Config">
+      <option name="closed" value="true" />
+      <created>1693315158741</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693315158741</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +189,7 @@
     <MESSAGE value="daemon have been made :)=))" />
     <MESSAGE value="fix bug" />
     <MESSAGE value="Now can play mp3 and wav.&#10;&#10;&#10;added TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now can play mp3 and wav.&#10;&#10;&#10;added TODO" />
+    <MESSAGE value="addad Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="addad Config" />
   </component>
 </project>
