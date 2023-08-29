@@ -7,14 +7,13 @@ public class Help {
 
 
     public static void displayHelpForCommand(String commandName) {
-        if ("daemon".equals(commandName)) {
+        if ("d".equals(commandName)) {
             System.out.println("Help for daemon: Usage instructions");
             System.out.println("java -jar coldbrew.jar daemon <action>");
             System.out.println("Actions:");
             System.out.println("start - Start the daemon");
             System.out.println("stop - Stop the daemon");
             System.out.println("restart - restart the daemon");
-            System.out.println("destroy - destroy the daemon");
 
         } else if ("command2".equals(commandName)) {
             System.out.println("Help for command2: Usage instructions...");

@@ -8,7 +8,7 @@ public class Main {
         Options options = new Options();
         options.addOption("h", "help",false , "Print this help message");
         options.addOption("v", "version", false, "Print version information and quit");
-        options.addOption("c", "config", true, "Specify config file");
+        options.addOption("C", "config", true, "Specify config file");
 
         options.addOption("G", "gui", false, "Launch GUI mode");
         options.addOption("T", "tui", false, "Launch TUI mode");
@@ -36,7 +36,7 @@ public class Main {
             CommandLine cmd = parser.parse(options, args);
             if (cmd.hasOption("h")) {
                 String[] remainingArgs = cmd.getArgs();
-                if (remainingArgs.length > 0) {
+                if (remainingArgs.length >= 1) {
                     // User provided a command name with -h option
                     String commandName = remainingArgs[0];
                     Help.displayHelpForCommand(commandName);
@@ -49,7 +49,7 @@ public class Main {
             } else if (cmd.hasOption("d")) {
                 String[] daemonAction = cmd.getArgs();
                 if (daemonAction.length == 0) {
-                    Help.displayHelpForCommand("daemon");
+                    Help.displayHelpForCommand("d");
                 } else if (daemonAction[0].equals("start")) {
                     DaemonLifecycle.init();
                 } else if (daemonAction[0].equals("stop")) {
@@ -94,6 +94,12 @@ public class Main {
                     e.printStackTrace();
                 }
 
+            } else if (cmd.hasOption("C")) {
+                try {
+                    Config.loadConf();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
             } else {
                 Help.generalHelp(options);
             }

@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="fix bug">
-      <change afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="Now can play mp3 and wav.&#10;&#10;&#10;added TODO">
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/default.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daemon.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Controlls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Controlls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLifecycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLifecycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Help.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicConverter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,26 +69,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/studio/maxis" />
@@ -139,7 +134,7 @@
       <updated>1693216460165</updated>
       <workItem from="1693216461162" duration="10410000" />
       <workItem from="1693226922090" duration="31093000" />
-      <workItem from="1693294820811" duration="9266000" />
+      <workItem from="1693294820811" duration="16495000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -165,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693250271805</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Now can play mp3 and wav.&#10;&#10;&#10;added TODO">
+      <option name="closed" value="true" />
+      <created>1693305323151</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693305323151</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +179,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="daemon have been made :)=))" />
     <MESSAGE value="fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
+    <MESSAGE value="Now can play mp3 and wav.&#10;&#10;&#10;added TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now can play mp3 and wav.&#10;&#10;&#10;added TODO" />
   </component>
 </project>
