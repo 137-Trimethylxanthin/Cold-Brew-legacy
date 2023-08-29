@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group = 'studio.maxis'
@@ -12,8 +13,19 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'commons-cli:commons-cli:1.5.0'
+    implementation 'javazoom:jlayer:1.0.1'
+    implementation 'commons-io:commons-io:2.7'
+    implementation 'org.apache.tika:tika-core:2.9.0'
+    implementation 'org.apache.tika:tika-parsers-standard-package:2.9.0'
+    implementation 'ws.schild:jave-core:3.3.1'
+    implementation 'ws.schild:jave-all-deps:3.3.1'
 }
 
 test {
     useJUnitPlatform()
+}
+
+application {
+    mainClass = 'studio.maxis.Main'
 }
