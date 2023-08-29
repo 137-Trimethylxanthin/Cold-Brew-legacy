@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="addad Config">
+    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daemon.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +130,7 @@
       <updated>1693216460165</updated>
       <workItem from="1693216461162" duration="10410000" />
       <workItem from="1693226922090" duration="31093000" />
-      <workItem from="1693294820811" duration="28326000" />
+      <workItem from="1693294820811" duration="29337000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -177,7 +172,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693315158741</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)">
+      <option name="closed" value="true" />
+      <created>1693328482898</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693328482898</updated>
+    </task>
+    <task id="LOCAL-00007" summary="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)">
+      <option name="closed" value="true" />
+      <created>1693329390110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693329390110</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +201,8 @@
     <MESSAGE value="fix bug" />
     <MESSAGE value="Now can play mp3 and wav.&#10;&#10;&#10;added TODO" />
     <MESSAGE value="addad Config" />
-    <option name="LAST_COMMIT_MESSAGE" value="addad Config" />
+    <MESSAGE value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)" />
+    <MESSAGE value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)" />
   </component>
 </project>

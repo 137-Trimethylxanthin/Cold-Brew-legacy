@@ -53,14 +53,19 @@ public class MusicPlayer {
             wavPlayer = AudioSystem.getClip();
             wavPlayer.open(audioIn);
             wavPlayer.addLineListener(event -> {
-                if (event.getType() == LineEvent.Type.CLOSE) {
-                    DaemonLogic.queue.remove(0);
-                    if (isTemp){
-                        File tempFile = new File(path);
-                        tempFile.delete();
+                if (event.getType() == LineEvent.Type.STOP) {
+                    if (wavPlayer.getMicrosecondLength() == wavPlayer.getMicrosecondPosition()){
+                        DaemonLogic.queue.remove(0);
+                        if (isTemp){
+                            File tempFile = new File(path);
+                            tempFile.delete();
+                            isTemp = false;
+                        }
                     }
+
                 }
             });
+
             wavPlayer.start();
 
 
@@ -78,7 +83,7 @@ public class MusicPlayer {
     public static void stop() {
         if (wavPlayer != null) {
             wavPlayer.stop();
-            wavPlayer.setFramePosition(0);
+            wavPlayer.close();
             wavPlayer.flush();
         }
     }
@@ -93,6 +98,7 @@ public class MusicPlayer {
             wavPlayer.start();
         }
     }
+
 
     public static Boolean currentlyPlaying(){
         boolean question = false;
