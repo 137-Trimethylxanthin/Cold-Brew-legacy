@@ -56,7 +56,7 @@ public class DaemonLifecycle {
             return;
         }
         try {
-            Controlls.sendRequest("stop");
+            Controlls.sendGetRequest("stop");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

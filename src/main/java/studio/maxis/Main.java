@@ -54,29 +54,46 @@ public class Main {
                     DaemonLifecycle.init();
                 } else if (daemonAction[0].equals("stop")) {
                     DaemonLifecycle.stop();
+
+                } else if (daemonAction[0].equals("restart")) {
+                    DaemonLifecycle.stop();
+                    System.out.println("----------------");
+                    DaemonLifecycle.init();
                 } else {
                     System.err.println("Invalid daemon action: " + daemonAction[0]);
                     Help.displayHelpForCommand("daemon");
                 }
             } else if (cmd.hasOption("n")) {
                 try {
-                    Controlls.sendRequest("test");
+                    Controlls.sendGetRequest("test");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             } else if (cmd.hasOption("a")) {
+                String path = cmd.getOptionValue("a");
+                System.out.println(path);
+                String data = "path="+path;
                 try {
-                    Controlls.sendRequest("add");
+                    Controlls.sendPostRequest("add", data);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
 
             } else if (cmd.hasOption("l")) {
                 try {
-                    Controlls.sendRequest("list");
+                    Controlls.sendGetRequest("list");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+            } else if (cmd.hasOption("r")) {
+                String path = cmd.getOptionValue("r");
+                System.out.println(path);
+                try {
+                    MusicPlayer.getMusicDetails(path);
+                } catch (Exception e){
+                    e.printStackTrace();
+                }
+
             } else {
                 Help.generalHelp(options);
             }

@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="fix bug">
-      <change afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daemon.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Controlls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Controlls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLifecycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLifecycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicConverter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +139,7 @@
       <updated>1693216460165</updated>
       <workItem from="1693216461162" duration="10410000" />
       <workItem from="1693226922090" duration="31093000" />
+      <workItem from="1693294820811" duration="9266000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

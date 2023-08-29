@@ -15,10 +15,9 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation 'commons-cli:commons-cli:1.5.0'
     implementation 'javazoom:jlayer:1.0.1'
-    implementation 'org.jaudiotagger:jaudiotagger:2.0.1'
-    implementation 'commons-io:commons-io:2.4'
-
-    implementation 'org.jflac:jflac-codec:1.5.2'
+    implementation 'commons-io:commons-io:2.7'
+    implementation 'org.apache.tika:tika-core:2.9.0'
+    implementation 'org.apache.tika:tika-parsers-standard-package:2.9.0'
 }
 
 test {

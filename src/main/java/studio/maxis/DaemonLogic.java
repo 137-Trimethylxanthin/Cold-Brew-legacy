@@ -2,8 +2,11 @@ package studio.maxis;
 
 
 
-import javax.sound.sampled.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.InetSocketAddress;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
@@ -11,26 +14,15 @@ import java.lang.management.RuntimeMXBean;
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpExchange;
-import javazoom.jl.decoder.JavaLayerException;
-
-import java.io.IOException;
-import java.io.OutputStream;
-import java.net.InetSocketAddress;
-
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.Queue;
 
 
-
-class QueueItem {
-    String path;
-    String name;
-}
 public class DaemonLogic {
 
-    static List<QueueItem> queue = new ArrayList<>();
+    static List<MusicFile> queue = new ArrayList<>();
 
     private static boolean myTest = false;
     public static void main(String[] args) {
@@ -48,7 +40,7 @@ public class DaemonLogic {
             HttpServer server = HttpServer.create(new InetSocketAddress(6969), 0);
             server.createContext("/test", new testHandler());
             server.createContext("/stop", new stopHandler());
-            server.createContext("/add", new newHandler());
+            server.createContext("/add", new addHandler());
             server.createContext("/list", new listHandler());
 
             server.start();
@@ -61,9 +53,13 @@ public class DaemonLogic {
         while (true){
             try {
                 if (!queue.isEmpty()) {
-                    QueueItem item = queue.get(0);
-                    System.out.println("DaemonLogic: playing " + item.name);
-
+                    MusicFile item = queue.get(0);
+                    System.out.println("DaemonLogic: playing " + item.Name);
+                    if (item.Filetype.equalsIgnoreCase("mp3")){
+                        MusicPlayer.mp3Player(item.Path);
+                    } else {
+                        MusicPlayer.wavPlayer(item.Path);
+                    }
                     queue.remove(0);
                 }
                 System.out.println("DaemonLogic: sleeping for 1 second");
@@ -102,11 +98,23 @@ public class DaemonLogic {
         }
     }
 
-    static class newHandler implements HttpHandler{
+    static class addHandler implements HttpHandler{
         @Override
         public void handle(HttpExchange exchange) throws IOException {
-            queue.add(new QueueItem(){{path = "/home/maxi/Music/astronaut in the forest.mp3"; name = "pls dont be loud";}});
-            String response = "added ... to queue";
+            String requestContent = readRequestContent(exchange);
+            String[] parts = requestContent.split("=");
+            String response;
+            if (parts.length >= 2) {
+                String path = parts[1];
+                System.out.println("Extracted path: " + path);
+                MusicFile musicFile = MusicPlayer.getMusicDetails(path);
+                response = "added "+ musicFile.Name +" to queue\n" +requestContent+" | "+ path;
+                queue.add(musicFile);
+            } else {
+                response = "Error cant get path/ wrong path";
+            }
+            //queue.add(new QueueItem(){{path = "/home/maxi/Music/internet/Säkkijärven Polkka.wav"; name = "pls dont be loud";}});
+
             sendResponse(exchange, response);
         }
     }
@@ -116,14 +124,25 @@ public class DaemonLogic {
         public void handle(HttpExchange exchange) throws IOException {
             StringBuilder response = new StringBuilder("List of queue:\n");
             int i = 0;
-            for (QueueItem item : queue) {
-                response.append(i).append(": ").append(item.name).append(" | ").append(item.path).append("\n");
+            for (MusicFile item : queue) {
+                response.append(i).append(": ").append(item.Name).append(" | ").append(item.Path).append("\n");
                 i++;
             }
             sendResponse(exchange, response.toString());
         }
     }
 
+    private static String readRequestContent(HttpExchange exchange) throws IOException {
+        InputStreamReader isr = new InputStreamReader(exchange.getRequestBody(), "UTF-8");
+        BufferedReader br = new BufferedReader(isr);
+        StringBuilder requestContent = new StringBuilder();
+        String inputLine;
+        while ((inputLine = br.readLine()) != null) {
+            requestContent.append(inputLine);
+        }
+        br.close();
+        return requestContent.toString();
+    }
     private static void sendResponse(HttpExchange exchange, String response) throws IOException {
         String contentType = "text/html"; // Set the content type to HTML
         exchange.getResponseHeaders().set("Content-Type", contentType);
