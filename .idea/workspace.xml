@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daemon.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,26 +69,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;swagger&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/studio/maxis" />
@@ -130,7 +135,11 @@
       <updated>1693216460165</updated>
       <workItem from="1693216461162" duration="10410000" />
       <workItem from="1693226922090" duration="31093000" />
-      <workItem from="1693294820811" duration="29337000" />
+      <workItem from="1693294820811" duration="34119000" />
+      <workItem from="1693385907348" duration="3104000" />
+      <workItem from="1694892725031" duration="29000" />
+      <workItem from="1694892762296" duration="5245000" />
+      <workItem from="1694898038535" duration="7948000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -188,11 +197,30 @@
       <option name="project" value="LOCAL" />
       <updated>1693329390110</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)">
+      <option name="closed" value="true" />
+      <created>1693329394806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693329394806</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -204,5 +232,9 @@
     <MESSAGE value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)" />
     <MESSAGE value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)" />
     <option name="LAST_COMMIT_MESSAGE" value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

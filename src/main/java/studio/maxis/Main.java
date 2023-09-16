@@ -24,14 +24,16 @@ public class Main {
         options.addOption("R", "random", false, "Enable random playback");
         options.addOption("L", "loop", false, "Enable loop mode");
         options.addOption("s", "shuffle", false, "Enable shuffle mode");
-        options.addOption("S", "true-shuffle", false, "Enable true shuffle mode");
+        options.addOption("ts", "true-shuffle", false, "Enable true shuffle mode");
         options.addOption("a", "add", true, "Add a track from the specified path");
-        options.addOption("r", "remove", true, "Remove the specified filename from the playlist");
-        options.addOption("c", "clear", false, "Clear the playlist");
-        options.addOption("l", "list", false, "List tracks in the playlist");
+        options.addOption("r", "remove", true, "Remove the specified filename from the queue");
+        options.addOption("c", "clear", false, "Clear the queue");
+        options.addOption("l", "list", false, "List tracks in the queue");
         options.addOption("i", "info", true, "Display information about the specified filename");
         options.addOption("I", "current-info", false, "Display information about the current track");
-
+        options.addOption("aPl", "add-Playlist", true, "Adds a playlist to the queue (path for the playlist)");
+        options.addOption("sT", "skip-to", true, "Skips to a specific track in the queue via index (0-n)");
+        options.addOption("V", "volume", true, "Set the volume (0%-100%) or (-nDb...-1dB, 0DB,1db, 2db, ...nDb)");
         CommandLineParser parser = new DefaultParser();
         try {
             CommandLine cmd = parser.parse(options, args);
@@ -77,11 +79,9 @@ public class Main {
                 Controlls.sendGetRequest("list");
 
             } else if (cmd.hasOption("r")) { //not implemented TODO
-                String path = cmd.getOptionValue("r");
-                System.out.println(path);
-
-                MusicPlayer.otherPlayer(path);
-
+                String number = cmd.getOptionValue("r");
+                String data = "number="+number;
+                Controlls.sendPostRequest("remove", data);
 
             } else if (cmd.hasOption("C")) {
                 Config.loadConf();
@@ -95,6 +95,22 @@ public class Main {
                 Controlls.sendGetRequest("stopSong");
             } else if (cmd.hasOption("P")) {
                 Controlls.sendGetRequest("previous");
+            } else if (cmd.hasOption("aPl")) {
+                String path = cmd.getOptionValue("aPl");
+                System.out.println(path);
+                String data = "path="+path;
+                Controlls.sendPostRequest("addPlaylist", data);
+
+            } else if (cmd.hasOption("sT")) {
+                String index = cmd.getOptionValue("sT");
+                System.out.println(index);
+                String data = "index="+index;
+                Controlls.sendPostRequest("skipTo", data);
+            } else if (cmd.hasOption("V")) {
+                String vol = cmd.getOptionValue("V");
+                System.out.println(vol);
+                String data = "vol="+vol;
+                Controlls.sendPostRequest("volume", data);
             } else {
                 Help.generalHelp(options);
             }
