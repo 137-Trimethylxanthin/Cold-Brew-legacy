@@ -1,6 +1,4 @@
-package studio.maxis;
-
-import java.sql.Time;
+package studio.maxis.daemon;
 
 //only used as a New Variable :) (I love structs but this cool too.)
 public class MusicFile {

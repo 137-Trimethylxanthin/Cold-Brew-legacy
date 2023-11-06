@@ -1,39 +1,42 @@
 package studio.maxis;
 
 import org.apache.commons.cli.*;
+import studio.maxis.daemon.Controlls;
+import studio.maxis.daemon.DaemonLifecycle;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
 
         Options options = new Options();
-        options.addOption("h", "help",false , "Print this help message");
-        options.addOption("v", "version", false, "Print version information and quit");
+        options.addOption("h", "help",false , "Print this help message"); // done
+        options.addOption("v", "version", false, "Print version information and quit"); // done
         options.addOption("C", "config", true, "Specify config file");
 
         options.addOption("G", "gui", false, "Launch GUI mode");
         options.addOption("T", "tui", false, "Launch TUI mode");
-        options.addOption("s", "status", false, "Display status");
-        options.addOption("d", "daemon", false, "Run as daemon");
+        options.addOption("st", "status", false, "Display status");
+        options.addOption("d", "daemon", false, "Run as daemon"); // done
 
-        options.addOption("p", "play", false, "Play the music");
-        options.addOption("Pa", "pause", false, "Pause the music");
-        options.addOption("s", "stop", false, "Stop the music");
-        options.addOption("n", "next", false, "Play the next track");
-        options.addOption("P", "previous", false, "Play the previous track");
+        options.addOption("p", "play", false, "Play the music"); // done
+        options.addOption("Pa", "pause", false, "Pause the music"); // done
+        options.addOption("s", "stop", false, "Stop the music"); // done
+        options.addOption("n", "next", false, "Play the next track"); // done
+        options.addOption("P", "previous", false, "Play the previous track"); // done
         options.addOption("t", "toggle", false, "Toggle play/pause");
         options.addOption("R", "random", false, "Enable random playback");
         options.addOption("L", "loop", false, "Enable loop mode");
-        options.addOption("s", "shuffle", false, "Enable shuffle mode");
+        options.addOption("S", "shuffle", false, "Enable shuffle mode");
         options.addOption("ts", "true-shuffle", false, "Enable true shuffle mode");
-        options.addOption("a", "add", true, "Add a track from the specified path");
-        options.addOption("r", "remove", true, "Remove the specified filename from the queue");
+        options.addOption("a", "add", true, "Add a track from the specified path"); // done
+        options.addOption("r", "remove", true, "Remove the specified filename from the queue"); // done
         options.addOption("c", "clear", false, "Clear the queue");
-        options.addOption("l", "list", false, "List tracks in the queue");
-        options.addOption("i", "info", true, "Display information about the specified filename");
-        options.addOption("I", "current-info", false, "Display information about the current track");
-        options.addOption("aPl", "add-Playlist", true, "Adds a playlist to the queue (path for the playlist)");
-        options.addOption("sT", "skip-to", true, "Skips to a specific track in the queue via index (0-n)");
-        options.addOption("V", "volume", true, "Set the volume (0%-100%) or (-nDb...-1dB, 0DB,1db, 2db, ...nDb)");
+        options.addOption("l", "list", false, "List tracks in the queue"); // done
+        options.addOption("i", "info", true, "Display information about the specified filename"); // half-baked
+        options.addOption("I", "current-info", false, "Display information about a track in the queue"); // half-baked
+        options.addOption("aPl", "add-Playlist", true, "Adds a playlist to the queue (path for the playlist)"); // done
+        options.addOption("sT", "skip-to", true, "Skips to a specific track in the queue via index (0-n)"); // done
+        options.addOption("V", "volume", true, "Set the volume (0%-100%) or (-nDb...-1dB, 0DB,1db, 2db, ...nDb)"); // done
         CommandLineParser parser = new DefaultParser();
         try {
             CommandLine cmd = parser.parse(options, args);
@@ -111,6 +114,22 @@ public class Main {
                 System.out.println(vol);
                 String data = "vol="+vol;
                 Controlls.sendPostRequest("volume", data);
+            } else if (cmd.hasOption("I")) {
+                String[] remainingArgs = cmd.getArgs();
+                if (remainingArgs.length >= 1) {
+                    // User provided a command name with -h option
+                    String index = remainingArgs[0];
+                    String data = "index="+index;
+                    Controlls.sendPostRequest("infoOfQueue", data);
+                } else {
+                    Controlls.sendPostRequest("infoOfQueue", "nothing");
+
+                }
+            } else if (cmd.hasOption("i")) {
+                String path = cmd.getOptionValue("i");
+                System.out.println(path);
+                String data = "path="+path;
+                Controlls.sendPostRequest("info", data);
             } else {
                 Help.generalHelp(options);
             }

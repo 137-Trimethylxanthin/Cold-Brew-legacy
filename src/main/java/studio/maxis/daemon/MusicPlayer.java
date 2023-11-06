@@ -1,10 +1,11 @@
-package studio.maxis;
+package studio.maxis.daemon;
 
 //mp3 files will be to wav
 import javax.sound.sampled.*;
 
 //read files
 import java.io.*;
+
 import ws.schild.jave.*;
 
 

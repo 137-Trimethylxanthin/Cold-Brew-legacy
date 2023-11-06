@@ -1,4 +1,4 @@
-package studio.maxis;
+package studio.maxis.daemon;
 
 
 
@@ -47,7 +47,7 @@ public class DaemonLogic {
             server.createContext("/addPlaylist", new addPlaylistHandler());
             server.createContext("/skipTo", new skipTo());
             server.createContext("/volume", new volumeHandler());
-
+            server.createContext("/infoOfQueue", new infoHandler());
             server.start();
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -57,7 +57,7 @@ public class DaemonLogic {
 
         while (true){
             try {
-                if (!queue.isEmpty() && !isPaused && !MusicPlayer.currentlyPlaying()){
+                if (!queue.isEmpty() && !isPaused && !MusicPlayer.currentlyPlaying() && currentPlayingIndex < queue.size()){
 
                     MusicFile item = queue.get(currentPlayingIndex);
                     System.out.println("DaemonLogic: playing " + item.Name);
@@ -376,6 +376,32 @@ public class DaemonLogic {
             } else {
                 response = "Error cant get number";
             }
+            sendResponse(exchange, response);
+        }
+    }
+
+    static class infoHandler implements HttpHandler {
+        @Override
+        public void handle(HttpExchange exchange) throws IOException {
+            String requestContent = readRequestContent(exchange);
+            String[] parts = requestContent.split("=");
+            String response;
+            if (parts.length >= 2) {
+                String index = parts[1];
+                System.out.println("Extracted index: " + index);
+                int a = Integer.parseInt(index);
+                if (a < queue.size()){
+                    MusicFile item = queue.get(a);
+                    response = "Name: " + item.Name + "\nPath: " + item.Path + "\nFiletype: " + item.Filetype;
+                } else {
+                    response = "Error index out of bounds";
+                }
+            } else if (parts.length == 1) {
+                response = "Name: " + queue.get(currentPlayingIndex).Name + "\nPath: " + queue.get(currentPlayingIndex).Path + "\nFiletype: " + queue.get(currentPlayingIndex).Filetype;
+            } else {
+                response = "Error cant get number";
+            }
+
             sendResponse(exchange, response);
         }
     }
