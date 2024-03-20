@@ -1,10 +1,11 @@
-package studio.maxis;
+package studio.maxis.daemon;
 
 //mp3 files will be to wav
 import javax.sound.sampled.*;
 
 //read files
 import java.io.*;
+
 import ws.schild.jave.*;
 
 
@@ -17,8 +18,9 @@ import org.apache.tika.sax.BodyContentHandler;
 import ws.schild.jave.encode.*;
 
 
+
 public class MusicPlayer {
-    public Integer volumen = 100; // #TODO: make it so it synced between the diffrent formats :)
+
     static Clip wavPlayer;
 
     private static String whereToSaveTempWavs = System.getProperty("java.io.tmpdir") + System.getProperty("file.separator") +"ColdBrew.wav";
@@ -55,7 +57,7 @@ public class MusicPlayer {
             wavPlayer.addLineListener(event -> {
                 if (event.getType() == LineEvent.Type.STOP) {
                     if (wavPlayer.getMicrosecondLength() == wavPlayer.getMicrosecondPosition()){
-                        DaemonLogic.queue.remove(0);
+                        DaemonLogic.currentPlayingIndex++;
                         if (isTemp){
                             File tempFile = new File(path);
                             tempFile.delete();
@@ -65,7 +67,7 @@ public class MusicPlayer {
 
                 }
             });
-
+            setVolume(DaemonLogic.currentVolumen);
             wavPlayer.start();
 
 
@@ -107,6 +109,33 @@ public class MusicPlayer {
         }
         return question;
     }
+    public static void setVolume( float volume) {
+        if (wavPlayer != null) {
+            FloatControl vol = (FloatControl) wavPlayer.getControl(FloatControl.Type.MASTER_GAIN); // F*CKING MASTER GAIN IS THE VOLUME AND DIDNT WORK BEFORE BUT AFTER I LOOK IT UP VIA A FUNCTION IT WORKS -_-
+            if (vol != null) {
+                if (volume > 6.0206f){
+                    volume = 6.0206f;
+                }
+                if (volume <= -65.0f){
+                    mute(true);
+                }else {
+                    mute(false);
+                }
+
+                vol.setValue(volume);
+            }
+        }
+    }
+    public static void mute(boolean mute) {
+        if (wavPlayer != null) {
+            BooleanControl muteControl = (BooleanControl) wavPlayer.getControl(BooleanControl.Type.MUTE); //Still hate this sh*t
+            if (muteControl != null) {
+                muteControl.setValue(mute);
+            }
+        }
+    }
+
+
 
 
     public static MusicFile getMusicDetails(String path){

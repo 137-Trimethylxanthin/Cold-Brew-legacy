@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)">
+    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="now can add playlist and volume&#10;&#10;also added new queue system for now and you can go back and forth between songs and even go to a specific song number,&#10;also you can remove songs from queue via index">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daemon.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Controlls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/Controlls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLifecycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/DaemonLifecycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/DaemonLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/DaemonLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Logic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/MusicFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/UI.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +82,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "dev",
     "last_opened_file_path": "/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis",
@@ -79,9 +92,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis/Main.java",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,7 +105,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.cold-brew [run]">
+    <configuration name="cold-brew [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="cold-brew [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -117,6 +153,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.cold-brew [run]" />
+        <item itemvalue="Gradle.cold-brew [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +167,15 @@
       <updated>1693216460165</updated>
       <workItem from="1693216461162" duration="10410000" />
       <workItem from="1693226922090" duration="31093000" />
-      <workItem from="1693294820811" duration="29337000" />
+      <workItem from="1693294820811" duration="34119000" />
+      <workItem from="1693385907348" duration="3104000" />
+      <workItem from="1694892725031" duration="29000" />
+      <workItem from="1694892762296" duration="5245000" />
+      <workItem from="1694898038535" duration="8569000" />
+      <workItem from="1696447053606" duration="7000" />
+      <workItem from="1696447416910" duration="10000" />
+      <workItem from="1699299955607" duration="115000" />
+      <workItem from="1699300083281" duration="3961000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -188,11 +233,38 @@
       <option name="project" value="LOCAL" />
       <updated>1693329390110</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)">
+      <option name="closed" value="true" />
+      <created>1693329394806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693329394806</updated>
+    </task>
+    <task id="LOCAL-00009" summary="now can add playlist and volume&#10;&#10;also added new queue system for now and you can go back and forth between songs and even go to a specific song number,&#10;also you can remove songs from queue via index">
+      <option name="closed" value="true" />
+      <created>1694907398087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694907398087</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -203,6 +275,11 @@
     <MESSAGE value="addad Config" />
     <MESSAGE value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)" />
     <MESSAGE value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)" />
+    <MESSAGE value="now can add playlist and volume&#10;&#10;also added new queue system for now and you can go back and forth between songs and even go to a specific song number,&#10;also you can remove songs from queue via index" />
+    <option name="LAST_COMMIT_MESSAGE" value="now can add playlist and volume&#10;&#10;also added new queue system for now and you can go back and forth between songs and even go to a specific song number,&#10;also you can remove songs from queue via index" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package studio.maxis;
+package studio.maxis.daemon;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;

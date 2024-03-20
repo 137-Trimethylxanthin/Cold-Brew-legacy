@@ -1,4 +1,4 @@
-package studio.maxis;
+package studio.maxis.daemon;
 
 import java.io.*;
 import java.io.BufferedReader;
@@ -18,7 +18,7 @@ public class DaemonLifecycle {
             System.out.println("DaemonLifecycle-starting: Daemon starting.");
             String jarPath = System.getProperty("java.class.path");
             try{
-                ProcessBuilder pb = new ProcessBuilder("java", "-cp", jarPath, "studio.maxis.DaemonLogic");
+                ProcessBuilder pb = new ProcessBuilder("java", "-cp", jarPath, "studio.maxis.daemon.DaemonLogic");
                 System.out.println("DaemonLifecycle-starting: the daemon has awakend..");
 
                 File logFile = new File("daemon.log");
