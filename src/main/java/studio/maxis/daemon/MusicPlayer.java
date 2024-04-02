@@ -202,5 +202,7 @@ public class MusicPlayer {
         return musicFile;
     }
 
+    public static void streamPlayer(String path) {
+    }
 }
 

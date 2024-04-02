@@ -3,10 +3,20 @@ package studio.maxis;
 import org.apache.commons.cli.*;
 import studio.maxis.daemon.Controlls;
 import studio.maxis.daemon.DaemonLifecycle;
+import studio.maxis.jellyfin.Api;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
+
+        System.out.println("Setting env vars...");
+        try{
+            Config.loadConf();
+            Config.setKey("jellyfinServerName", "Maxi");
+            Config.setKey("jellyfinServerPassword", "gNtFiFglCNiNejFFRgfGDvJIuTCvENbRdunGnE");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
         Options options = new Options();
         options.addOption("h", "help",false , "Print this help message"); // done
@@ -37,6 +47,11 @@ public class Main {
         options.addOption("aPl", "add-Playlist", true, "Adds a playlist to the queue (path for the playlist)"); // done
         options.addOption("sT", "skip-to", true, "Skips to a specific track in the queue via index (0-n)"); // done
         options.addOption("V", "volume", true, "Set the volume (0%-100%) or (-nDb...-1dB, 0DB,1db, 2db, ...nDb)"); // done
+        //jellyfin options
+        options.addOption("j", "jelly", false, "Test jelly");
+        options.addOption("jls", "jellyListSong", true, "Lists JellyFin Songs");
+        options.addOption("jss", "jellySearchSong", true, "Searches for a JellyFin Song");
+        options.addOption("jas", "jellyAddSong", true, "Adds a JellyFin Song to the queue");
         CommandLineParser parser = new DefaultParser();
         try {
             CommandLine cmd = parser.parse(options, args);
@@ -130,7 +145,12 @@ public class Main {
                 System.out.println(path);
                 String data = "path="+path;
                 Controlls.sendPostRequest("info", data);
-            } else {
+            } else if (cmd.hasOption("j")){
+                Api api = new Api("http://192.168.178.47", "8096", "maxi", "gNtFiFglCNiNejFFRgfGDvJIuTCvENbRdunGnE");
+                api.getApiToken();
+                System.out.printf("Finished testing connection");
+            }
+            else {
                 Help.generalHelp(options);
             }
         } catch (ParseException e) {

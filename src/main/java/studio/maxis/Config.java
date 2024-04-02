@@ -1,9 +1,6 @@
 package studio.maxis;
 
-
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -31,7 +28,8 @@ public class Config {
         String author = appProps.getProperty("author");
         String configRenewal = appProps.getProperty("configRenewal");
 
-        Boolean needNewConfig = size == 0 || Objects.equals(version, "0.1.0") || name.equals("ColdBrew") || github.equals("https://github.com/137-Trimethylxanthin/Cold-Brew") || author.equals("137-Trimethylxanthin") || configRenewal.equalsIgnoreCase("true");
+
+        boolean needNewConfig = size == 0 || Objects.equals(version, "0.1.0") || name.equals("ColdBrew") || github.equals("https://github.com/137-Trimethylxanthin/Cold-Brew") || author.equals("137-Trimethylxanthin") || configRenewal.equalsIgnoreCase("true");
         if (needNewConfig){
             System.out.println("No config file found, creating one...");
 
@@ -43,19 +41,13 @@ public class Config {
             System.out.println("Done!");
             System.out.println(appProps.size());
         }
-
-
-
-
-
-
     }
 
-    public static void storeConf(String key, String value) throws URISyntaxException, IOException {
+    public static void setKey(String key, String value) throws URISyntaxException, IOException {
         URL appConfigPath = Config.class.getClassLoader().getResource("app.properties");
         Properties appProps = new Properties();
         appProps.load(new FileInputStream(Paths.get(appConfigPath.toURI()).toFile()));
         appProps.put(key, value);
-
     }
+
 }

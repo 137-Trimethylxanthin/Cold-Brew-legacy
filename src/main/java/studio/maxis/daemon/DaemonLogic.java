@@ -62,8 +62,11 @@ public class DaemonLogic {
                     MusicFile item = queue.get(currentPlayingIndex);
                     System.out.println("DaemonLogic: playing " + item.Name);
 
-                    if (item.Filetype.equalsIgnoreCase("wav")){
+                    if (item.Filetype.equalsIgnoreCase("wav")) {
                         MusicPlayer.wavPlayer(item.Path);
+                    }
+                    else if (item.Path.equalsIgnoreCase("https://")) {
+                            MusicPlayer.streamPlayer(item.Path);
                     } else {
                         MusicPlayer.otherPlayer(item.Path);
                     }
