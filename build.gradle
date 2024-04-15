@@ -9,6 +9,10 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    //https://repo.spring.io/libs-release/net/sourceforge/jaadec/jaad/0.8.5/jaad-0.8.5.pom
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
@@ -21,6 +25,7 @@ dependencies {
     implementation 'org.apache.tika:tika-parsers-standard-package:2.9.0'
     implementation 'ws.schild:jave-core:3.3.1'
     implementation 'ws.schild:jave-all-deps:3.3.1'
+    implementation files('libs/jaad-0.8.4.jar')
 }
 
 test {

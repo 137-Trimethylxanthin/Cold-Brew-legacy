@@ -5,17 +5,22 @@ import javax.sound.sampled.*;
 
 //read files
 import java.io.*;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URL;
+import java.sql.SQLOutput;
+import java.util.List;
 
 import ws.schild.jave.*;
-
-
-
 
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.sax.BodyContentHandler;
 import ws.schild.jave.encode.*;
+
+import net.sourceforge.jaad.aac.Decoder;
+import net.sourceforge.jaad.aac.SampleBuffer;
 
 
 
@@ -82,6 +87,36 @@ public class MusicPlayer {
 
 
 
+
+    public static void streamPlayer(String uri) {
+        try {
+            URL url = new URL(uri);
+            System.out.println("start: " + uri);
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+            System.out.println("end");
+            wavPlayer = AudioSystem.getClip();
+            wavPlayer.open(audioIn);
+            wavPlayer.addLineListener(event -> {
+                if (event.getType() == LineEvent.Type.STOP) {
+                    if (wavPlayer.getMicrosecondLength() == wavPlayer.getMicrosecondPosition()){
+                        DaemonLogic.currentPlayingIndex++;
+                    }
+
+                }
+            });
+            setVolume(DaemonLogic.currentVolumen);
+            wavPlayer.start();
+            System.out.println("Playing: " + uri);
+
+        } catch (UnsupportedAudioFileException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (LineUnavailableException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void stop() {
         if (wavPlayer != null) {
             wavPlayer.stop();
@@ -139,6 +174,17 @@ public class MusicPlayer {
 
 
     public static MusicFile getMusicDetails(String path){
+        if (path.startsWith("https:")){
+            MusicFile musicFile = new MusicFile();
+            musicFile.Path = path;
+            musicFile.Name = "name";
+            musicFile.Artist = "artist";
+            musicFile.Album = "album";
+            musicFile.Filetype = "http";
+
+
+            return musicFile;
+        }
         MusicFile musicFile = new MusicFile();
         File file = new File(path);
 
@@ -202,7 +248,5 @@ public class MusicPlayer {
         return musicFile;
     }
 
-    public static void streamPlayer(String path) {
-    }
 }
 

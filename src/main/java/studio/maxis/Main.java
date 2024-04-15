@@ -1,8 +1,10 @@
 package studio.maxis;
 
+import com.sun.tools.jconsole.JConsoleContext;
 import org.apache.commons.cli.*;
 import studio.maxis.daemon.Controlls;
 import studio.maxis.daemon.DaemonLifecycle;
+import studio.maxis.daemon.MusicPlayer;
 import studio.maxis.jellyfin.Api;
 
 public class Main {
@@ -146,8 +148,15 @@ public class Main {
                 String data = "path="+path;
                 Controlls.sendPostRequest("info", data);
             } else if (cmd.hasOption("j")){
-                Api api = new Api("http://192.168.178.47", "8096", "maxi", "gNtFiFglCNiNejFFRgfGDvJIuTCvENbRdunGnE");
-                api.getApiToken();
+                System.out.println("Testing connection to Jellyfin server...");
+                Api api = new Api("https://jelly.plskill.me", "", "maxi", "gNtFiFglCNiNejFFRgfGDvJIuTCvENbRdunGnE");
+
+                String stream = api.getSongStream("018c179c8a6668b01eabd332d9fdf1a9");
+                System.out.println(stream);
+
+                String data = "path="+stream;
+                Controlls.sendPostRequest("add", data);
+
                 System.out.printf("Finished testing connection");
             }
             else {

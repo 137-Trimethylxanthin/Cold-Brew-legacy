@@ -34417,3 +34417,465 @@ DaemonLogic: sleeping for 1 half second
 DaemonLogic: sleeping for 1 half second
 DaemonLogic: sleeping for 1 half second
 DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 11406
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+java.io.FileNotFoundException: https:/jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at studio.maxis.daemon.MusicPlayer.getMusicDetails(MusicPlayer.java:188)
+	at studio.maxis.daemon.DaemonLogic$addHandler.handle(DaemonLogic.java:318)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:871)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:847)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:566)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:532)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+DaemonLogic: playing null
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ws.schild.jave.EncoderException: Input file not found </home/maxi/Documents/code/java/Cold-Brew/https:/jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec>
+	at ws.schild.jave.MultimediaObject.getInfo(MultimediaObject.java:171)
+	at ws.schild.jave.Encoder.encode(Encoder.java:600)
+	at ws.schild.jave.Encoder.encode(Encoder.java:481)
+	at ws.schild.jave.Encoder.encode(Encoder.java:351)
+	at ws.schild.jave.Encoder.encode(Encoder.java:318)
+	at studio.maxis.daemon.MusicPlayer.otherPlayer(MusicPlayer.java:47)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:71)
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:79)
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at studio.maxis.daemon.MusicPlayer.wavPlayer(MusicPlayer.java:82)
+	at studio.maxis.daemon.MusicPlayer.otherPlayer(MusicPlayer.java:52)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:71)
+Caused by: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at net.sourceforge.jaad.spi.javasound.AACAudioFileReader.getAudioInputStream(AACAudioFileReader.java:141)
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1060)
+	at studio.maxis.daemon.MusicPlayer.wavPlayer(MusicPlayer.java:59)
+	... 2 more
+Extracted path: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+java.io.FileNotFoundException: https:/jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at studio.maxis.daemon.MusicPlayer.getMusicDetails(MusicPlayer.java:188)
+	at studio.maxis.daemon.DaemonLogic$addHandler.handle(DaemonLogic.java:318)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:871)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:847)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:566)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:532)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+
+----
+
+
+Extracted path: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+java.io.FileNotFoundException: https:/jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at studio.maxis.daemon.MusicPlayer.getMusicDetails(MusicPlayer.java:188)
+	at studio.maxis.daemon.DaemonLogic$addHandler.handle(DaemonLogic.java:318)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:871)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:847)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:204)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:566)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:532)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 16330
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+DaemonLogic: playing null
+Exception in thread "main" java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "item.Filetype" is null
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:79)
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "item.Filetype" is null
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:65)
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 20062
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+DaemonLogic: playing name
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ws.schild.jave.EncoderException: Input file not found </home/maxi/Documents/code/java/Cold-Brew/https:/jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec>
+	at ws.schild.jave.MultimediaObject.getInfo(MultimediaObject.java:171)
+	at ws.schild.jave.Encoder.encode(Encoder.java:600)
+	at ws.schild.jave.Encoder.encode(Encoder.java:481)
+	at ws.schild.jave.Encoder.encode(Encoder.java:351)
+	at ws.schild.jave.Encoder.encode(Encoder.java:318)
+	at studio.maxis.daemon.MusicPlayer.otherPlayer(MusicPlayer.java:47)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:71)
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:79)
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at studio.maxis.daemon.MusicPlayer.wavPlayer(MusicPlayer.java:82)
+	at studio.maxis.daemon.MusicPlayer.otherPlayer(MusicPlayer.java:52)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:71)
+Caused by: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at net.sourceforge.jaad.spi.javasound.AACAudioFileReader.getAudioInputStream(AACAudioFileReader.java:141)
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1060)
+	at studio.maxis.daemon.MusicPlayer.wavPlayer(MusicPlayer.java:59)
+	... 2 more
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 24181
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+DaemonLogic: playing name
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ws.schild.jave.EncoderException: Input file not found </home/maxi/Documents/code/java/Cold-Brew/https:/jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec>
+	at ws.schild.jave.MultimediaObject.getInfo(MultimediaObject.java:171)
+	at ws.schild.jave.Encoder.encode(Encoder.java:600)
+	at ws.schild.jave.Encoder.encode(Encoder.java:481)
+	at ws.schild.jave.Encoder.encode(Encoder.java:351)
+	at ws.schild.jave.Encoder.encode(Encoder.java:318)
+	at studio.maxis.daemon.MusicPlayer.otherPlayer(MusicPlayer.java:47)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:71)
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:79)
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at studio.maxis.daemon.MusicPlayer.wavPlayer(MusicPlayer.java:82)
+	at studio.maxis.daemon.MusicPlayer.otherPlayer(MusicPlayer.java:52)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:71)
+Caused by: java.io.FileNotFoundException: /tmp/ColdBrew.wav (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at net.sourceforge.jaad.spi.javasound.AACAudioFileReader.getAudioInputStream(AACAudioFileReader.java:141)
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1060)
+	at studio.maxis.daemon.MusicPlayer.wavPlayer(MusicPlayer.java:59)
+	... 2 more
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 26392
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+DaemonLogic: playing name
+start: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: javax.sound.sampled.UnsupportedAudioFileException: Stream of unsupported format
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:79)
+Caused by: java.lang.RuntimeException: javax.sound.sampled.UnsupportedAudioFileException: Stream of unsupported format
+	at studio.maxis.daemon.MusicPlayer.streamPlayer(MusicPlayer.java:114)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:69)
+Caused by: javax.sound.sampled.UnsupportedAudioFileException: Stream of unsupported format
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1012)
+	at studio.maxis.daemon.MusicPlayer.streamPlayer(MusicPlayer.java:97)
+	... 1 more
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 29006
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+DaemonLogic: playing name
+start: https://jelly.plskill.me:/Audio/018c179c8a6668b01eabd332d9fdf1a9/stream?audioCodec
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: javax.sound.sampled.UnsupportedAudioFileException: URL of unsupported format
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:79)
+Caused by: java.lang.RuntimeException: javax.sound.sampled.UnsupportedAudioFileException: URL of unsupported format
+	at studio.maxis.daemon.MusicPlayer.streamPlayer(MusicPlayer.java:112)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:69)
+Caused by: javax.sound.sampled.UnsupportedAudioFileException: URL of unsupported format
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1038)
+	at studio.maxis.daemon.MusicPlayer.streamPlayer(MusicPlayer.java:95)
+	... 1 more
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 31385
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+DaemonLogic: playing name
+start: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:79)
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+	at studio.maxis.daemon.MusicPlayer.streamPlayer(MusicPlayer.java:116)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:69)
+Caused by: java.io.FileNotFoundException: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+	at java.base/java.net.URL.openStream(URL.java:1325)
+	at studio.maxis.daemon.MusicPlayer.streamPlayer(MusicPlayer.java:95)
+	... 1 more
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 32266
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+DaemonLogic: playing name
+start: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:79)
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+	at studio.maxis.daemon.MusicPlayer.streamPlayer(MusicPlayer.java:116)
+	at studio.maxis.daemon.DaemonLogic.main(DaemonLogic.java:69)
+Caused by: java.io.FileNotFoundException: https://www2.cs.uic.edu/\~i101/SoundFiles/BabyElephantWalk60.wav
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+	at java.base/java.net.URL.openStream(URL.java:1325)
+	at studio.maxis.daemon.MusicPlayer.streamPlayer(MusicPlayer.java:95)
+	... 1 more
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 33923
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://file-examples.com/storage/feed2327706616bd9a07caa/2017/11/file_example_MP3_700KB.mp3
+DaemonLogic: playing name
+start: https://file-examples.com/storage/feed2327706616bd9a07caa/2017/11/file_example_MP3_700KB.mp3
+DaemonLogic: Daemon has exited. bey :)
+----------------------------------------
+DaemonLogic: Daemon has awakend.
+Current PID: 37529
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+DaemonLogic: sleeping for 1 half second
+Extracted path: https://file-examples.com/storage/feed2327706616bd9a07caa/2017/11/file_example_MP3_700KB.mp3
+DaemonLogic: playing name
+start: https://file-examples.com/storage/feed2327706616bd9a07caa/2017/11/file_example_MP3_700KB.mp3

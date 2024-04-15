@@ -19,11 +19,10 @@ public class Api {
         this.port = port;
         this.username = username;
         this.password = password;
-
-
+        this.token = getApiToken();
     }
 
-    public void getApiToken() {
+    private String getApiToken() {
         //send request to server POST /Users/AuthenticateByName
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -33,7 +32,16 @@ public class Api {
                 .header("x-emby-authorization", getAuthString())
                 .POST(HttpRequest.BodyPublishers.ofString("{\"Username\":\"" + this.username + "\", \"Pw\":\"" + this.password + "\"}"))
                 .build();
-        sendRequest(request);
+        String token = "";
+        try {
+            HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+            //get token from response
+            token = response.body().split("\"AccessToken\":\"")[1].split("\"")[0];
+        } catch (Exception e) {
+            System.out.println("Error: " + e);
+        }
+
+        return token;
     }
 
     private String getAuthString() {
@@ -55,11 +63,29 @@ public class Api {
         //send request to server GET /Auth/Provders
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(server + ":" + port + "/Auth/Providers"))
-                .header("Authorization", "MediaBrowser Token=\"your_api_key\"")
+                .uri(URI.create(server + ":" + port + "/Artists/Dazegxd"))
+                .header("Authorization", "MediaBrowser Token=\"" + token+ "\"")
+                .header("Content-type", "application/json")
+                .header("X-Application", "Cold Brew")
+                .header("x-emby-authorization", getAuthString())
                 .GET()
                 .build();
         sendRequest(request);
+    }
+
+    public String getSongStream(String songId) {
+        //send request to server GET /Audio/{songId}/stream
+        HttpClient client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(server + ":" + port + "/Audio/" + songId + "/stream?audioCodec=mp3"))
+                .header("Authorization", "MediaBrowser Token=\"" + token+ "\"")
+                .header("Content-type", "application/json")
+                .header("X-Application", "Cold Brew")
+                .header("x-emby-authorization", getAuthString())
+                .GET()
+                .build();
+
+        return request.uri().toString();
     }
 
 
