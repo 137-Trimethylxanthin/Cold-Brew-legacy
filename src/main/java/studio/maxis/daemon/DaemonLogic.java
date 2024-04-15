@@ -12,6 +12,7 @@ import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpExchange;
 
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -66,7 +67,7 @@ public class DaemonLogic {
                         MusicPlayer.wavPlayer(item.Path);
                     }
                     else if (item.Filetype.equalsIgnoreCase("http")) {
-                            MusicPlayer.streamPlayer(item.Path);
+                            MusicPlayer.streamPlayer(URI.create(item.Path));
                     } else {
                         MusicPlayer.otherPlayer(item.Path);
                     }
@@ -278,7 +279,7 @@ public class DaemonLogic {
             String response;
             if (parts.length >= 2) {
                 String path = parts[1];
-                System.out.println("Extracted path: " + path);
+                //System.out.println("Extracted path: " + path);
                 FileInputStream fstream = new FileInputStream(path);
                 BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
                 String strLine;
@@ -314,7 +315,8 @@ public class DaemonLogic {
             String response;
             if (parts.length >= 2) {
                 String path = parts[1];
-                System.out.println("Extracted path: " + path);
+                //System.out.println("Extracted path: " + path);
+                
                 MusicFile musicFile = MusicPlayer.getMusicDetails(path);
                 response = "added "+ musicFile.Name +" to queue\n" +requestContent+" | "+ path;
                 queue.add(musicFile);

@@ -11,6 +11,7 @@ import java.net.URL;
 import java.sql.SQLOutput;
 import java.util.List;
 
+import org.apache.commons.io.IOUtils;
 import ws.schild.jave.*;
 
 import org.apache.tika.metadata.Metadata;
@@ -76,7 +77,7 @@ public class MusicPlayer {
             wavPlayer.start();
 
 
-       } catch (UnsupportedAudioFileException e) {
+    } catch (UnsupportedAudioFileException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -88,33 +89,47 @@ public class MusicPlayer {
 
 
 
-    public static void streamPlayer(String uri) {
-        try {
-            URL url = new URL(uri);
-            System.out.println("start: " + uri);
-            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
-            System.out.println("end");
-            wavPlayer = AudioSystem.getClip();
-            wavPlayer.open(audioIn);
-            wavPlayer.addLineListener(event -> {
-                if (event.getType() == LineEvent.Type.STOP) {
-                    if (wavPlayer.getMicrosecondLength() == wavPlayer.getMicrosecondPosition()){
-                        DaemonLogic.currentPlayingIndex++;
+    public static void streamPlayer(URI audioUrl)  {
+        try{
+            AudioFormat format = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, 44100, 16, 2, 4, 44100, false);
+
+            DataLine.Info info = new DataLine.Info(SourceDataLine.class, format);
+            final SourceDataLine sourceLine = (SourceDataLine) AudioSystem.getLine(info);
+            sourceLine.open();
+            sourceLine.start();
+
+
+            while (true) {
+                    InputStream stream = audioUrl.toURL().openStream();
+                    byte[] data = IOUtils.toByteArray(stream);
+                    ByteArrayInputStream bais = new ByteArrayInputStream(data);
+                    AudioInputStream ais = new AudioInputStream(bais,format,data.length);
+                    System.out.println("AudioInputStream: " + ais);
+                    int bytesRead = 0;
+
+                    if((bytesRead = ais.read(data)) != -1){
+                        System.out.println("Writing to audio output.");
+                        sourceLine.write(data,0,bytesRead);
+
+                        //                 bais.reset();
                     }
+                    ais.close();
+                    bais.close();
+            }
 
-                }
-            });
-            setVolume(DaemonLogic.currentVolumen);
-            wavPlayer.start();
-            System.out.println("Playing: " + uri);
 
-        } catch (UnsupportedAudioFileException e) {
+
+
+
+        } catch (LineUnavailableException e) {
+            throw new RuntimeException(e);
+        } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
-        } catch (LineUnavailableException e) {
-            throw new RuntimeException(e);
         }
+
+
     }
 
     public static void stop() {
@@ -174,7 +189,7 @@ public class MusicPlayer {
 
 
     public static MusicFile getMusicDetails(String path){
-        if (path.startsWith("https:")){
+        if (path.startsWith("http")) {
             MusicFile musicFile = new MusicFile();
             musicFile.Path = path;
             musicFile.Name = "name";

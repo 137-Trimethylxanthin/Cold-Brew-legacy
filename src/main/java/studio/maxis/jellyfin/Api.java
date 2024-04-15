@@ -5,6 +5,9 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+import java.io.IOException;
+
+
 //USE APPLE MUSIC AAC for audio streams
 public class Api {
     private String server;
@@ -73,11 +76,10 @@ public class Api {
         sendRequest(request);
     }
 
-    public String getSongStream(String songId) {
+    public URI getSongStream(String songId) {
         //send request to server GET /Audio/{songId}/stream
-        HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(server + ":" + port + "/Audio/" + songId + "/stream?audioCodec=mp3"))
+                .uri(URI.create(server + ":" + port + "/Audio/" + songId + "/stream?static=true"))
                 .header("Authorization", "MediaBrowser Token=\"" + token+ "\"")
                 .header("Content-type", "application/json")
                 .header("X-Application", "Cold Brew")
@@ -85,7 +87,7 @@ public class Api {
                 .GET()
                 .build();
 
-        return request.uri().toString();
+        return request.uri();
     }
 
 

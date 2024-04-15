@@ -7,6 +7,9 @@ import studio.maxis.daemon.DaemonLifecycle;
 import studio.maxis.daemon.MusicPlayer;
 import studio.maxis.jellyfin.Api;
 
+import java.net.URI;
+import java.net.URL;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
@@ -151,11 +154,12 @@ public class Main {
                 System.out.println("Testing connection to Jellyfin server...");
                 Api api = new Api("https://jelly.plskill.me", "", "maxi", "gNtFiFglCNiNejFFRgfGDvJIuTCvENbRdunGnE");
 
-                String stream = api.getSongStream("018c179c8a6668b01eabd332d9fdf1a9");
-                System.out.println(stream);
+                URI stream = api.getSongStream("7574a8e6417ec19c5afbf28c8295eb43");
 
                 String data = "path="+stream;
-                Controlls.sendPostRequest("add", data);
+                //Controlls.sendPostRequest("add", data);
+                System.out.println(stream);
+                MusicPlayer.streamPlayer(stream);
 
                 System.out.printf("Finished testing connection");
             }

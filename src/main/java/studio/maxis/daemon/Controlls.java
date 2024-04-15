@@ -61,7 +61,7 @@ public class Controlls {
         }
         in.close();
 
-        System.out.print("Response: " + response);
+        //System.out.print("Response: " + response);
 
     }
 
