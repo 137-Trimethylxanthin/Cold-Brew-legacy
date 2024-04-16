@@ -154,12 +154,13 @@ public class Main {
                 System.out.println("Testing connection to Jellyfin server...");
                 Api api = new Api("https://jelly.plskill.me", "", "maxi", "gNtFiFglCNiNejFFRgfGDvJIuTCvENbRdunGnE");
 
-                URI stream = api.getSongStream("7574a8e6417ec19c5afbf28c8295eb43");
+                URI stream = api.getSongStream("1e46768a5efcf738afafa87527c6543c");
 
                 String data = "path="+stream;
                 //Controlls.sendPostRequest("add", data);
                 System.out.println(stream);
-                MusicPlayer.streamPlayer(stream);
+                MusicPlayer streamPlayer = new MusicPlayer();
+                streamPlayer.streamPlayer(stream);
 
                 System.out.printf("Finished testing connection");
             }

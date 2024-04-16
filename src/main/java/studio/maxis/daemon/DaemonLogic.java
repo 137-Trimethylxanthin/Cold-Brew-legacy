@@ -67,7 +67,7 @@ public class DaemonLogic {
                         MusicPlayer.wavPlayer(item.Path);
                     }
                     else if (item.Filetype.equalsIgnoreCase("http")) {
-                            MusicPlayer.streamPlayer(URI.create(item.Path));
+                            //MusicPlayer.streamPlayer(URI.create(item.Path));
                     } else {
                         MusicPlayer.otherPlayer(item.Path);
                     }

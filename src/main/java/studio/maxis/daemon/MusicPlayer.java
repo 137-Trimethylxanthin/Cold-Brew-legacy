@@ -11,7 +11,15 @@ import java.net.URI;
 import java.net.URL;
 import java.sql.SQLOutput;
 import java.util.List;
+import java.lang.reflect.Field;
 
+import javazoom.jl.decoder.JavaLayerException;
+import javazoom.jl.player.AudioDevice;
+import javazoom.jl.player.FactoryRegistry;
+import javazoom.jl.player.JavaSoundAudioDevice;
+import javazoom.jl.player.advanced.AdvancedPlayer;
+import javazoom.jl.player.advanced.PlaybackListener;
+import net.sourceforge.jaad.Play;
 import org.apache.commons.io.IOUtils;
 import ws.schild.jave.*;
 
@@ -24,14 +32,17 @@ import ws.schild.jave.encode.*;
 import net.sourceforge.jaad.aac.Decoder;
 import net.sourceforge.jaad.aac.SampleBuffer;
 
+import javazoom.jl.player.Player;
+
+
 
 
 public class MusicPlayer {
 
     static Clip wavPlayer;
-
     private static String whereToSaveTempWavs = System.getProperty("java.io.tmpdir") + System.getProperty("file.separator") +"ColdBrew.wav";
     private static boolean isTemp = false;
+
 
     public static void otherPlayer(String path) {
         AudioAttributes audioAttributes = new AudioAttributes();
@@ -90,62 +101,15 @@ public class MusicPlayer {
 
 
 
-    public static void streamPlayer(URI audioUrl)  {
+    public void streamPlayer(URI audioUrl) throws JavaLayerException, IOException {
         //audioUrl = URI.create("https://streams.radiomast.io/ref-128k-mp3-stereo-preroll");
-        try{
-            AudioFormat format = new AudioFormat(44100.F,// Sample Rate
-                    16,     // Size of SampleBits
-                    2,      // Number of Channels
-                    true,   // Is Signed?
-                    false   // Is Big Endian?
-            );
-            DataLine.Info info = new DataLine.Info(SourceDataLine.class, format);
-            final SourceDataLine sourceLine = (SourceDataLine) AudioSystem.getLine(info);
-            sourceLine.open();
-            sourceLine.start();
-
-            InputStream stream = audioUrl.toURL().openStream();
 
 
-            System.out.println("AudioInputStream: " + stream.available());
-
-            while (stream.available() > 0){
-
-                byte[] data = new byte[stream.available()];
-                stream.read(data);
-
-
-                ByteArrayInputStream bais = new ByteArrayInputStream(data);
-                AudioInputStream ais = new AudioInputStream(bais,format,data.length);
-                System.out.println("AudioInputStream: " + ais);
-                int bytesRead = 0;
-
-                if((bytesRead = ais.read(data)) != -1){
-                    System.out.println("Writing to audio output.");
-                    sourceLine.write(data,0,bytesRead);
-
-                    //                 bais.reset();
-                }
-                ais.close();
-                bais.close();
-
-                System.out.println("AudioInputStream: " + stream.available());
-            }
-
-
-
-
-
-        } catch (LineUnavailableException e) {
-            throw new RuntimeException(e);
-        } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-
+            Player player = new Player(audioUrl.toURL().openStream());
+            player.play();
     }
+
+
 
     public static void stop() {
         if (wavPlayer != null) {

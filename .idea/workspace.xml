@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="UPDATE to JAVA 21 :partying_face:&#10;&#10;und auch noch infos über current song&#10;&#10;und Restructure von files">
+    <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="DU jAVA ZOOOMMMMMM (i hoff des java zoom wir dgehen :sad: :cry:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/DaemonLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/DaemonLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/jellyfin/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/jellyfin/Api.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,8 +172,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
       </set>
     </attachedChunks>
   </component>
@@ -211,6 +211,7 @@
       <workItem from="1713166262990" duration="681000" />
       <workItem from="1713213322772" duration="331000" />
       <workItem from="1713217352792" duration="3690000" />
+      <workItem from="1713263042796" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -292,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699304088729</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DU jAVA ZOOOMMMMMM (i hoff des java zoom wir dgehen :sad: :cry:">
+      <option name="closed" value="true" />
+      <created>1713262027677</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713262027677</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +329,8 @@
     <MESSAGE value="IT CAN PLAY ANY FILE (flac, wav, mp3 tested...)&#10;&#10;and has some controlls ;)" />
     <MESSAGE value="now can add playlist and volume&#10;&#10;also added new queue system for now and you can go back and forth between songs and even go to a specific song number,&#10;also you can remove songs from queue via index" />
     <MESSAGE value="UPDATE to JAVA 21 :partying_face:&#10;&#10;und auch noch infos über current song&#10;&#10;und Restructure von files" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE to JAVA 21 :partying_face:&#10;&#10;und auch noch infos über current song&#10;&#10;und Restructure von files" />
+    <MESSAGE value="DU jAVA ZOOOMMMMMM (i hoff des java zoom wir dgehen :sad: :cry:" />
+    <option name="LAST_COMMIT_MESSAGE" value="DU jAVA ZOOOMMMMMM (i hoff des java zoom wir dgehen :sad: :cry:" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
