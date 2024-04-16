@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b94042-4c12-4e2b-a454-a406e184d5b6" name="Changes" comment="UPDATE to JAVA 21 :partying_face:&#10;&#10;und auch noch infos über current song&#10;&#10;und Restructure von files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daemon.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/Controlls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/Controlls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/DaemonLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/DaemonLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/daemon/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/maxis/jellyfin/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/maxis/jellyfin/Api.java" afterDir="false" />
     </list>
@@ -58,18 +54,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "137-Trimethylxanthin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;137-Trimethylxanthin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:137-Trimethylxanthin/Cold-Brew-legacy.git",
-    "accountId": "35dcae7d-8e32-42ed-bd6c-5955938f5f04"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:137-Trimethylxanthin/Cold-Brew-legacy.git&quot;,
+    &quot;accountId&quot;: &quot;35dcae7d-8e32-42ed-bd6c-5955938f5f04&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -87,32 +83,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "Gradle.cold-brew [run].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/maxi/Documents/code-projects/Java/Cold-Brew-legacy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.cold-brew [run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/maxi/Documents/code-projects/Java/Cold-Brew-legacy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/maxi/IdeaProjects/cold-brew/src/main/java/studio/maxis/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/libs" />

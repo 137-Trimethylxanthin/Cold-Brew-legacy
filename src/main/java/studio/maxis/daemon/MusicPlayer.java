@@ -6,6 +6,7 @@ import javax.sound.sampled.*;
 //read files
 import java.io.*;
 import java.net.MalformedURLException;
+import java.net.Socket;
 import java.net.URI;
 import java.net.URL;
 import java.sql.SQLOutput;
@@ -90,31 +91,45 @@ public class MusicPlayer {
 
 
     public static void streamPlayer(URI audioUrl)  {
+        //audioUrl = URI.create("https://streams.radiomast.io/ref-128k-mp3-stereo-preroll");
         try{
-            AudioFormat format = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, 44100, 16, 2, 4, 44100, false);
-
+            AudioFormat format = new AudioFormat(44100.F,// Sample Rate
+                    16,     // Size of SampleBits
+                    2,      // Number of Channels
+                    true,   // Is Signed?
+                    false   // Is Big Endian?
+            );
             DataLine.Info info = new DataLine.Info(SourceDataLine.class, format);
             final SourceDataLine sourceLine = (SourceDataLine) AudioSystem.getLine(info);
             sourceLine.open();
             sourceLine.start();
 
+            InputStream stream = audioUrl.toURL().openStream();
 
-            while (true) {
-                    InputStream stream = audioUrl.toURL().openStream();
-                    byte[] data = IOUtils.toByteArray(stream);
-                    ByteArrayInputStream bais = new ByteArrayInputStream(data);
-                    AudioInputStream ais = new AudioInputStream(bais,format,data.length);
-                    System.out.println("AudioInputStream: " + ais);
-                    int bytesRead = 0;
 
-                    if((bytesRead = ais.read(data)) != -1){
-                        System.out.println("Writing to audio output.");
-                        sourceLine.write(data,0,bytesRead);
+            System.out.println("AudioInputStream: " + stream.available());
 
-                        //                 bais.reset();
-                    }
-                    ais.close();
-                    bais.close();
+            while (stream.available() > 0){
+
+                byte[] data = new byte[stream.available()];
+                stream.read(data);
+
+
+                ByteArrayInputStream bais = new ByteArrayInputStream(data);
+                AudioInputStream ais = new AudioInputStream(bais,format,data.length);
+                System.out.println("AudioInputStream: " + ais);
+                int bytesRead = 0;
+
+                if((bytesRead = ais.read(data)) != -1){
+                    System.out.println("Writing to audio output.");
+                    sourceLine.write(data,0,bytesRead);
+
+                    //                 bais.reset();
+                }
+                ais.close();
+                bais.close();
+
+                System.out.println("AudioInputStream: " + stream.available());
             }
 
 

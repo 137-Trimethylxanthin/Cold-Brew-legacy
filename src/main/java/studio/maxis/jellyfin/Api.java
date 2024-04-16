@@ -79,7 +79,7 @@ public class Api {
     public URI getSongStream(String songId) {
         //send request to server GET /Audio/{songId}/stream
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(server + ":" + port + "/Audio/" + songId + "/stream?static=true"))
+                .uri(URI.create(server + ":" + port + "/Audio/" + songId + "/stream.mp3?audioSampleRate=44100"))
                 .header("Authorization", "MediaBrowser Token=\"" + token+ "\"")
                 .header("Content-type", "application/json")
                 .header("X-Application", "Cold Brew")
